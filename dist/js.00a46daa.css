@@ -21,6 +21,11 @@ body {
   color: #555;
   max-width: 100%;
   overflow-x: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/header.7aab4a63.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 p {
@@ -29,7 +34,6 @@ p {
 
 section {
   padding: 6rem 2rem;
-  border-bottom: 1px solid rgb(233, 232, 232);
 }
 @media (min-width: 768px) {
   section {
@@ -443,9 +447,11 @@ section {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/header.7aab4a63.jpg");
+  /*background-image: linear-gradient(rgba($color-black, .2), 
+                    rgba($color-black, .3)) , 
+                    url('../img/header.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
   text-align: center;
 }
 .header__text-box {
@@ -750,7 +756,6 @@ section {
 /* ----- Skills ----- */
 /* ------------------------------------- */
 .skill {
-  background: #f8f8f8;
   text-align: center;
 }
 .skill .btn-text {
