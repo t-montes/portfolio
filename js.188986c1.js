@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./..\\img\\header.jpg":[["header.c5f8eb6e.jpg","OEcR"],"OEcR"]}],"QvaY":[function(require,module,exports) {
 "use strict";require("../scss/main.scss");
 },{"../scss/main.scss":"fx60"}]},{},["QvaY"], null)
-//# sourceMappingURL=/js.a5c9ee33.js.map
+//# sourceMappingURL=/js.188986c1.js.map
