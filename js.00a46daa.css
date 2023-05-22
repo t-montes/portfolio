@@ -713,7 +713,7 @@ section {
 .craft__item {
   display: block;
   margin: auto;
-  width: 50rem;
+  max-width: 50rem;
   text-align: center;
   border: 1px solid rgb(233, 232, 232);
   padding: 2rem 1rem;
@@ -726,8 +726,10 @@ section {
 }
 @media (min-width: 768px) {
   .craft__item {
+    width: 50rem;
     display: table-cell;
     padding: 3rem;
+    width: 30rem;
   }
 }
 .craft__img {
