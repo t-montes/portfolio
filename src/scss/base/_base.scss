@@ -9,6 +9,8 @@
 html {
     font-size: 62.5%;
     height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
     font-size: $default-font-size;
     font-weight: 300;
     color: $color-black-1;
-    max-width: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 

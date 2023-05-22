@@ -256,7 +256,7 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     &__item {
         display: block;
         margin: auto;
-        width: 50rem;
+        max-width: 50rem;
         text-align: center;
         border: 1px solid rgb(233, 232, 232);
         padding: 2rem 1rem;
@@ -269,8 +269,10 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
         }
 
         @media(min-width: 768px) {
+            width: 50rem;
             display: table-cell;
             padding: 3rem;
+            width: 30rem;
         }
 
     }

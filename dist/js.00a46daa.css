@@ -12,6 +12,8 @@
 html {
   font-size: 62.5%;
   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -19,13 +21,8 @@ body {
   font-size: 1.6rem;
   font-weight: 300;
   color: #555;
-  max-width: 100%;
+  width: 100%;
   overflow-x: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/header.7aab4a63.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 p {
@@ -34,6 +31,7 @@ p {
 
 section {
   padding: 6rem 2rem;
+  border-bottom: 1px solid rgb(233, 232, 232);
 }
 @media (min-width: 768px) {
   section {
@@ -447,11 +445,9 @@ section {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  /*background-image: linear-gradient(rgba($color-black, .2), 
-                    rgba($color-black, .3)) , 
-                    url('../img/header.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/header.7aab4a63.jpg");
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
   text-align: center;
 }
 .header__text-box {
@@ -719,7 +715,7 @@ section {
 .craft__item {
   display: block;
   margin: auto;
-  width: 50rem;
+  max-width: 50rem;
   text-align: center;
   border: 1px solid rgb(233, 232, 232);
   padding: 2rem 1rem;
@@ -732,8 +728,10 @@ section {
 }
 @media (min-width: 768px) {
   .craft__item {
+    width: 50rem;
     display: table-cell;
     padding: 3rem;
+    width: 30rem;
   }
 }
 .craft__img {
@@ -756,6 +754,7 @@ section {
 /* ----- Skills ----- */
 /* ------------------------------------- */
 .skill {
+  background: #f8f8f8;
   text-align: center;
 }
 .skill .btn-text {
