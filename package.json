@@ -1,14 +1,14 @@
 {
-  "homepage":"http://t-montes.github.io/",
+  "homepage": "http://t-montes.github.io/",
   "name": "t-montes-portfolio",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Tony S. Montes",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "prod": "parcel build ./src/index.html",
-    "predepoy": "npm run prod",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "predepoy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
