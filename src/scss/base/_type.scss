@@ -1,0 +1,62 @@
+.heading-primary {
+
+    font-weight: 400;
+    color: $color-white;
+    opacity: .8;
+
+    display: inline-block;
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+
+    @media(min-width: 768px) {
+        font-size: 7.2rem;
+    }
+
+}
+
+.heading-primary pre {
+    background: rgba($color-black, .7);
+    padding: .5rem; 
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+
+    @media(min-width: 768px) {
+        font-size: 6.4rem;
+    }
+}
+
+.heading-secondary {
+
+    font-size: 2.4rem;
+    font-weight: 400;
+    @include underline;
+
+
+    @media(min-width: 768px) {
+        font-size: 4.5rem;
+    }
+
+}
+
+.heading-tertiary {
+    font-size: 2.2rem;
+    font-weight: 400;
+    // underline mixin
+    &::after {
+        content: '';
+        display: block;
+        margin: 2rem auto;
+        height: 2px;
+        width: 20rem;
+        background-color: #777;
+        @media(min-width: 768px) {
+            margin: 2rem auto;
+        } 
+    }
+
+    @media(min-width: 768px) {
+        font-size: 2.4rem;
+    }
+
+}
