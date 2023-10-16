@@ -6,12 +6,11 @@
     position: relative;
     height: 100vh;
     min-height: 600px;
-    background-image: linear-gradient(rgba($color-black, .2), 
-                      rgba($color-black, .3)) , 
-                      url('../img/header.jpg');
+    background-image: linear-gradient(rgba($color-black, .2), rgba($color-black, .8)), url('../img/outerspace.gif');
     background-size: cover;
     background-position: center;
     text-align: center;
+    background-attachment: fixed; /* Add this line for parallax effect */
 
     @media(min-width: 768px) {
         
@@ -29,14 +28,12 @@
     }
 
     &__description {
-
         max-width: 50rem;
         font-weight: 400;
         margin: 0 auto;
         font-size: 1.8rem;
         color: $color-white;
         opacity: .7;
-
 
         @media (min-width: 768px) {
             width: 70%;
@@ -53,11 +50,10 @@
         color: $color-white;
         opacity: .7;
 
-        @media(min-width: 768px) {
+        @media (min-width: 768px) {
             font-size: 1.7rem;
         }
     }
-
 }
 
 /* ------------------------------------- */
