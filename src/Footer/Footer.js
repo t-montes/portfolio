@@ -17,6 +17,8 @@ function Footer(props) {
 				<li class="number"></li>
 				<li>
 					<a href="mailto:santiago.montesb@gmail.com" class="number">santiago.montesb@gmail.com</a>
+					&nbsp; | &nbsp;
+					<a href="mailto:t.montes@uniandes.edu.co" class="number">t.montes@uniandes.edu.co</a>
 				</li>
 			</ul>
 		</nav>
