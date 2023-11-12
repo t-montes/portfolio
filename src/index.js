@@ -12,3 +12,5 @@ root.render(
 );
 
 reportWebVitals();
+
+// to deploy to github pages, run: $ npm run deploy

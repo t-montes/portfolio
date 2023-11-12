@@ -7,17 +7,17 @@ function Skillset(props) {
 				<h2 class="heading-secondary">My Skillset</h2>
 				<p class="intro-text">
 					I have skills 
-					in multiple languages such as 
-					<span class="about__py">Python</span>, 
-					<span class="about__jv">Java</span>,
-					<span class="about__js">JavaScript</span> and
+					in multiple languages such as&nbsp;
+					<span class="about__py">Python</span>,&nbsp;
+					<span class="about__jv">Java</span>,&nbsp;
+					<span class="about__js">JavaScript</span> and&nbsp;
 					<span class="about__ts">TypeScript</span>. 
-					Furthermore, I have experience working with industry-leading frameworks such as 
-					<span class="about__react">React</span>, 
-					<span class="about__flutter">Flutter</span>, 
-					<span class="about__angular">Angular</span>, 
-					<span class="about__node">NodeJS</span>, 
-					<span class="about__spring">Spring</span> and 
+					Furthermore, I have experience working with industry-leading frameworks such as&nbsp;
+					<span class="about__react">React</span>,&nbsp;
+					<span class="about__flutter">Flutter</span>,&nbsp;
+					<span class="about__angular">Angular</span>,&nbsp;
+					<span class="about__node">NodeJS</span>,&nbsp;
+					<span class="about__spring">Spring</span> and&nbsp; 
 					<span class="about__django">Django</span>. 	
 					A most extensive list of my skills can be found below.
 				</p>
