@@ -29,7 +29,7 @@ function Footer(props) {
 				&nbsp;Inspired by&nbsp;
 				<a target="_blank" href="https://twitter.com/nisarhassan12" rel="noreferrer">Nisar.</a>
 			</p>
-			<p class="footer__info">&copy;2023. All rights reserved.</p>
+			<p class="footer__info">&copy;2024. All rights reserved.</p>
 		</div>
 	</footer>
     );
