@@ -26,13 +26,18 @@ function Menu(props) {
                         </a>
                     </li>
                     <li className="navigation__item">
+                        <a href="#projects" className="navigation__link" onClick={handleLinkClick}>
+                            <span>02</span>Projects
+                        </a>
+                    </li>
+                    <li className="navigation__item">
                         <a href="#skill" className="navigation__link" onClick={handleLinkClick}>
-                            <span>02</span>Skills
+                            <span>03</span>Skills
                         </a>
                     </li>
                     <li className="navigation__item">
                         <a href="#footer" className="navigation__link" onClick={handleLinkClick}>
-                            <span>03</span>Contact
+                            <span>04</span>Contact
                         </a>
                     </li>
                 </ul>

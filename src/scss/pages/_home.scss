@@ -485,7 +485,7 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
   @media (min-width: 1200px) {
     .projects .swiper-slide-next {
       opacity: 1;
-      transform: scale(1.12);
+      transform: scale(1.12) !important;
     }
   }
   

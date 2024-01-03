@@ -2,30 +2,30 @@ import React from "react";
 
 function Skillset(props) {
     return(
-		<section class="skill craft" id="skill">
-			<div class="u-text-center">
-				<h2 class="heading-secondary">My Skillset</h2>
-				<p class="intro-text">
+		<section className="skill craft" id="skill">
+			<div className="u-text-center">
+				<h2 className="heading-secondary">My Skillset</h2>
+				<p className="intro-text">
 					I have skills 
 					in multiple languages such as&nbsp;
-					<span class="about__py">Python</span>,&nbsp;
-					<span class="about__jv">Java</span>,&nbsp;
-					<span class="about__js">JavaScript</span> and&nbsp;
-					<span class="about__ts">TypeScript</span>. 
+					<span className="about__py">Python</span>,&nbsp;
+					<span className="about__jv">Java</span>,&nbsp;
+					<span className="about__js">JavaScript</span> and&nbsp;
+					<span className="about__ts">TypeScript</span>. 
 					Furthermore, I have experience working with industry-leading frameworks such as&nbsp;
-					<span class="about__react">React</span>,&nbsp;
-					<span class="about__flutter">Flutter</span>,&nbsp;
-					<span class="about__angular">Angular</span>,&nbsp;
-					<span class="about__node">NodeJS</span>,&nbsp;
-					<span class="about__spring">Spring</span> and&nbsp; 
-					<span class="about__django">Django</span>. 	
+					<span className="about__react">React</span>,&nbsp;
+					<span className="about__flutter">Flutter</span>,&nbsp;
+					<span className="about__angular">Angular</span>,&nbsp;
+					<span className="about__node">NodeJS</span>,&nbsp;
+					<span className="about__spring">Spring</span> and&nbsp; 
+					<span className="about__django">Django</span>. 	
 					A most extensive list of my skills can be found below.
 				</p>
-				<div class="craft__row">
-					<div class="craft__item">
-						<img src="./img/browser-16.svg" alt="Browser" class="craft__img" />
-						<h3 class="heading-tertiary">Front-end</h3>
-						<p class="craft__description">
+				<div className="craft__row">
+					<div className="craft__item">
+						<img src="./img/browser-16.svg" alt="Browser" className="craft__img" />
+						<h3 className="heading-tertiary">Front-end</h3>
+						<p className="craft__description">
 							React, Angular
 							<br />
 							HTML, CSS, Vanilla JS, Bootstrap
@@ -34,12 +34,12 @@ function Skillset(props) {
 						</p>
 					</div>
 	
-					<div class="craft__item hack"></div>
+					<div className="craft__item hack"></div>
 	
-					<div class="craft__item">
-						<img src="./img/browser-26.svg" alt="Server" class="craft__img" />
-						<h3 class="heading-tertiary">Back-end</h3>
-						<p class="craft__description">
+					<div className="craft__item">
+						<img src="./img/browser-26.svg" alt="Server" className="craft__img" />
+						<h3 className="heading-tertiary">Back-end</h3>
+						<p className="craft__description">
 							NodeJS, Spring, Django, Flask, NestJS, Express
 							<br />
 							<b>DB:</b> PostgreSQL, MongoDB
@@ -52,8 +52,8 @@ function Skillset(props) {
 				</div>
 	
 				<div id="slideshow">
-					<div class="entire-content">
-						<div class="content-carrousel">
+					<div className="entire-content">
+						<div className="content-carrousel">
                             {/*TODO: Instead of redirect to page, redirect to popup with description and URL*/}
                             <figure><a target="_blank" href="https://react.dev/" rel="noreferrer"><img src="./img/assets/react.png" alt="React" /></a></figure>
                             <figure><a target="_blank" href="https://angular.io/" rel="noreferrer"><img src="./img/assets/angular.png" alt="Angular" /></a></figure>
@@ -74,7 +74,7 @@ function Skillset(props) {
 					</div>
 				</div>
 
-				<a target="_blank" href="https://github.com/t-montes" class="btn" rel="noreferrer">My GitHub</a>
+				<a target="_blank" href="https://github.com/t-montes" className="btn" rel="noreferrer">My GitHub</a>
 			</div>
 		</section>
     );

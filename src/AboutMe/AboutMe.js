@@ -2,10 +2,10 @@ import React from "react";
 
 function AboutMe(props) {
     return(
-		<section class="about" id="about">
-			<div class="u-text-center">
-				<h2 class="heading-secondary">About Me</h2>
-				<p class="intro-text">
+		<section className="about" id="about">
+			<div className="u-text-center">
+				<h2 className="heading-secondary">About Me</h2>
+				<p className="intro-text">
 					I am a passionate Systems Engineering and Electronic Engineering student 
 					interested in developing creative and innovative solutions. 
 					As a freelance developer at&nbsp;
@@ -23,7 +23,7 @@ function AboutMe(props) {
 					new topics. Also I am passionate about teaching and helping others with the subjects 
 					in which I excel, as 
 					<br />
-					<span class="about__phrase">I believe knowledge is the most solid foundation for progress</span>. 
+					<span className="about__phrase">I believe knowledge is the most solid foundation for progress</span>. 
 					<br />
 					My goal is to continue growing professionally and adding value to challenging 
 					and creative projects in the field of software and AI development.

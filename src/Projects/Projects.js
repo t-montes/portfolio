@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
+import ProjectCard from './ProjectCard';
 import Swiper from 'swiper';
 import 'swiper/css';
-import './Projects.css';
-import ProjectCard from './ProjectCard';
 
 const projects = [
   {
@@ -54,19 +53,10 @@ const projects = [
 
 const Projects = () => {
     useEffect(() => {
-        const testimonialsSlider = new Swiper('.projects-slider', {
+        const projectsSlider = new Swiper('.projects-slider', {
           speed: 600,
           loop: true,
-          autoplay: {
-            delay: 5000,
-            disableOnInteraction: true,
-          },
           slidesPerView: 'auto',
-          pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-            clickable: true,
-          },
           breakpoints: {
             320: {
               slidesPerView: 1,
@@ -76,22 +66,26 @@ const Projects = () => {
               slidesPerView: 3,
             },
           },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
         });
       
         const interval = setInterval(() => {
-          testimonialsSlider.slideNext();
-        }, 5000);
+          projectsSlider.slideNext();
+        }, 5000); // Slide every 5 seconds
       
         // Cleanup the interval when the component is unmounted
         return () => {
           clearInterval(interval);
-          testimonialsSlider.destroy();
+          projectsSlider.destroy();
         };
       }, []);
       
   return (
     <section id="projects" className="projects">
-        <h2 class="heading-secondary">Projects</h2>
+        <h2 className="heading-secondary">Projects</h2>
         <div className="container">
             <div className="projects-slider swiper">
             <div className="swiper-wrapper">
