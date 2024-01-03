@@ -15,10 +15,10 @@ html {
 }
 
 body {
-    font-family: 'Josefin sans', sans-serif;
-    font-size: $default-font-size;
-    font-weight: 300;
-    color: $color-black-1;
+    font-family: 'Josefin sans', sans-serif !important;
+    font-size: $default-font-size !important;
+    font-weight: 300 !important;
+    color: $color-black-1 !important;
     width: 100%;
     overflow-x: hidden;
 }

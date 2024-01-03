@@ -21,7 +21,7 @@ function Skillset(props) {
 					<span class="about__django">Django</span>. 	
 					A most extensive list of my skills can be found below.
 				</p>
-				<div class="row">
+				<div class="craft__row">
 					<div class="craft__item">
 						<img src="./img/browser-16.svg" alt="Browser" class="craft__img" />
 						<h3 class="heading-tertiary">Front-end</h3>

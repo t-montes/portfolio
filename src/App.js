@@ -1,6 +1,7 @@
 import Menu from './Menu/Menu';
 import LandingPage from './LandingPage/LandingPage';
 import AboutMe from './AboutMe/AboutMe';
+import Projects from './Projects/Projects';
 import Skillset from './Skillset/Skillset';
 import Footer from './Footer/Footer';
 import { BrowserRouter, useLocation } from 'react-router-dom'
@@ -15,6 +16,7 @@ function App() {
         <LandingPage />
         <main role="main">
           <AboutMe />
+          <Projects />
           <Skillset />
         </main>
         <Footer />
