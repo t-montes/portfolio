@@ -110,6 +110,20 @@
         background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 400;
+        display: inline-block; // Add this to make animation work
+        background-size: 200% 100%; // Double the width to cover the entire animation
+        animation: pythonMoveColors 2s infinite linear; // Adjust the duration and timing function as needed
+    }
+
+    @keyframes pythonMoveColors {
+        // 100% must be the same as 0% and no negatives
+        0% {
+            background-position: 0% 100%;
+        } 50% {
+            background-position: 50% 50%;
+        } 100% {
+            background-position: 0% 100%;
+        }
     }
 
     &__jv {
