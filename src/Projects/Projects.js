@@ -9,7 +9,7 @@ import 'swiper/css/autoplay';
 
 const projects = [
   {
-    id: 'modal-pj1',
+    id: 'pj1',
     title: 'Song Preloading',
     scenario: 'Scenario 1',
     stars: 5,
@@ -18,7 +18,7 @@ const projects = [
     imageUrl: 'https://picsum.photos/900?image=101',
   },
   {
-    id: 'modal-pj2',
+    id: 'pj2',
     title: 'Song Downloading',
     scenario: 'Scenario 2',
     stars: 5,
@@ -27,7 +27,7 @@ const projects = [
     imageUrl: 'https://picsum.photos/900?image=103',
   },
   {
-    id: 'modal-pj3',
+    id: 'pj3',
     title: 'Offline Reproduction',
     scenario: 'Scenario 3',
     stars: 5,
@@ -36,7 +36,7 @@ const projects = [
     imageUrl: 'https://picsum.photos/900?image=104',
   },
   {
-    id: 'modal-pj4',
+    id: 'pj4',
     title: 'No-Connectivity Ft.',
     scenario: 'Scenario 4',
     stars: 5,
@@ -45,7 +45,7 @@ const projects = [
     imageUrl: 'https://picsum.photos/900?image=107',
   },
   {
-    id: 'modal-pj5',
+    id: 'pj5',
     title: 'Offline Playlist',
     scenario: 'Scenario 5',
     stars: 5,
@@ -53,7 +53,7 @@ const projects = [
       'In this scenario, the app misleadingly appears to allow users to create new playlists and add songs to them when no connectivity is available. But the playlists remain empty ...',
     imageUrl: 'https://picsum.photos/900?image=109',
   },
-];
+]; // TODO: Change for actual projects; and it's Card structure
 
 const Projects = () => {
   const [isPC, setIsPC] = useState(window.innerWidth >= 768);

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({ project }) => (
   <div className="swiper-slide">
-    <a href={`#${project.id}`} className="clickable-div">
+    <a href={`#modal-${project.id}`} className="clickable-div">
       <div className="project-item">
         <h3>{project.title}</h3>
         <h4>{project.scenario}</h4>
