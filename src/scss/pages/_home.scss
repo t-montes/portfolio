@@ -406,23 +406,19 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
 
 }
 
-.projects .swiper {
-    width: 100%;
-}
-
 .projects .project-item {
     color: #444444;
     margin-top: 15px;
     box-sizing: content-box;
     padding: 30px;
     box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
-    background: #fff;
+    background: #e0e0e0;
     min-height: 320px;
     display: flex;
     flex-direction: column;
     text-align: center;
     transition: 0.3s;
-  }
+}
   
   .projects .project-item .stars {
     margin-bottom: 15px;
@@ -436,7 +432,7 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
   .projects .project-item .project-img {
     width: 80%;
     border-radius: 5%;
-    border: 4px solid #fff;
+    border: 4px solid transparent;
     margin: 0 auto;
   }
   
@@ -513,7 +509,58 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
       opacity: 1;
     }
   }
+
+/* ------------------------------------- */
+/* ----- Modals ----- */
+/* ------------------------------------- */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 301;
+  }
   
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff !important;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .modal-content p {
+    margin-bottom: 20px;
+  }
+  
+  .modal-content button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background: #0056b3;
+  }
+  
+
+
 /* ------------------------------------- */
 /* ----- Footer ----- */
 /* ------------------------------------- */

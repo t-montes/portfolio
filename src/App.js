@@ -1,16 +1,19 @@
-import Menu from './Menu/Menu';
-import LandingPage from './LandingPage/LandingPage';
-import AboutMe from './AboutMe/AboutMe';
-import Projects from './Projects/Projects';
-import Skillset from './Skillset/Skillset';
-import Footer from './Footer/Footer';
-import { BrowserRouter, useLocation } from 'react-router-dom'
-import { useMemo, useEffect } from "react";
+import React, { useMemo, useEffect, useState } from "react";
+import { BrowserRouter, useLocation, useNavigate } from "react-router-dom";
+import Menu from "./Menu/Menu";
+import LandingPage from "./LandingPage/LandingPage";
+import AboutMe from "./AboutMe/AboutMe";
+import Projects from "./Projects/Projects";
+import Skillset from "./Skillset/Skillset";
+import Footer from "./Footer/Footer";
+import Modal from "./Projects/ProjectDetail"; // Import your Modal component here
 
 function App() {
+  const [modalId, setModalId] = useState(null);
+
   return (
     <BrowserRouter>
-      <ScrollToHashElement />
+      <ScrollToHashElement setModalId={setModalId} />
       <div className="App">
         <Menu />
         <LandingPage />
@@ -20,39 +23,47 @@ function App() {
           <Skillset />
         </main>
         <Footer />
+        {modalId && <Modal id={modalId} closeModal={() => setModalId(null)} />}
       </div>
     </BrowserRouter>
   );
 }
 
-const ScrollToHashElement = () => {
-  // Took from https://github.com/ncoughlin/scroll-to-hash-element
+const ScrollToHashElement = ({ setModalId }) => {
   let location = useLocation();
-
-  let hashElement = useMemo(() => {
-    let hash = location.hash;
-    const removeHashCharacter = (str) => {
-      const result = str.slice(1);
-      return result;
-    };
-
-    if (hash) {
-      let element = document.getElementById(removeHashCharacter(hash));
-      return element;
-    } else {
-      return null;
-    }
-  }, [location]);
+  let navigate = useNavigate();
 
   useEffect(() => {
-    if (hashElement) {
-      hashElement.scrollIntoView({
-        behavior: "smooth",
-        // block: "end",
-        inline: "nearest",
-      });
-    }
-  }, [hashElement]);
+    const removeHashCharacter = (str) => str.slice(1);
+
+    const handleHashChange = () => {
+      let hash = location.hash;
+
+      if (hash.startsWith('#modal')) {
+        // Remove the hash from the URL without adding a new entry to the history
+        // extract modal ID from "#modal-ID"
+        navigate(location.pathname);
+
+        let modalId = hash.substring(hash.indexOf('-')+1);
+        setModalId(modalId);
+      } else {
+        let hashElement = document.getElementById(removeHashCharacter(hash));
+        if (hashElement) {
+          hashElement.scrollIntoView({
+            behavior: "smooth",
+            inline: "nearest",
+          });
+        }
+      }
+    };
+
+    window.addEventListener("hashchange", handleHashChange);
+    handleHashChange();
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
+  }, [location, setModalId]);
 
   return null;
 };

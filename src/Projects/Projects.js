@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import ProjectCard from './ProjectCard';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 const projects = [
   {
-    id: 'modal',
+    id: 'modal-pj1',
     title: 'Song Preloading',
     scenario: 'Scenario 1',
     stars: 5,
@@ -17,7 +18,7 @@ const projects = [
     imageUrl: 'https://picsum.photos/900?image=101',
   },
   {
-    id: 'ecn2',
+    id: 'modal-pj2',
     title: 'Song Downloading',
     scenario: 'Scenario 2',
     stars: 5,
@@ -26,7 +27,7 @@ const projects = [
     imageUrl: 'https://picsum.photos/900?image=103',
   },
   {
-    id: 'ecn3',
+    id: 'modal-pj3',
     title: 'Offline Reproduction',
     scenario: 'Scenario 3',
     stars: 5,
@@ -35,7 +36,7 @@ const projects = [
     imageUrl: 'https://picsum.photos/900?image=104',
   },
   {
-    id: 'ecn4',
+    id: 'modal-pj4',
     title: 'No-Connectivity Ft.',
     scenario: 'Scenario 4',
     stars: 5,
@@ -44,7 +45,7 @@ const projects = [
     imageUrl: 'https://picsum.photos/900?image=107',
   },
   {
-    id: 'ecn5',
+    id: 'modal-pj5',
     title: 'Offline Playlist',
     scenario: 'Scenario 5',
     stars: 5,
@@ -56,6 +57,7 @@ const projects = [
 
 const Projects = () => {
   const [isPC, setIsPC] = useState(window.innerWidth >= 768);
+  const swiperRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -69,23 +71,32 @@ const Projects = () => {
     };
   }, []);
 
+  const handleClick = (index) => {
+    console.log(index);
+    swiperRef.current.swiper.slideTo(index);
+  };
+
   return (
     <section id="projects" className="projects">
       <h2 className="heading-secondary">Projects</h2>
       <div className="container">
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay]}
           className="projects-slider"
           spaceBetween={40}
           slidesPerView={isPC ? 3 : 1}
           centeredSlides={true}
-          loop={true}
           pagination={{ clickable: true }}
-          //onSwiper={(swiper) => console.log(swiper)}
-          //onSlideChange={() => console.log('slide change')}
+          autoplay={{
+            delay: 5000, 
+            pauseOnMouseEnter: true,
+            disableOnInteraction: true
+          }}
+          initialSlide={1}
+          ref={swiperRef}
         >
-          {projects.map((project) => (
-            <SwiperSlide key={project.id}>
+          {projects.map((project, index) => (
+            <SwiperSlide key={project.id} onClick={() => handleClick((index) % projects.length)}>
               <ProjectCard project={project} />
             </SwiperSlide>
           ))}
