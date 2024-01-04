@@ -392,12 +392,15 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
 
 }
 
+.projects .swiper {
+    width: 100%;
+}
+
 .projects .project-item {
     color: #444444;
-  
+    margin-top: 15px;
     box-sizing: content-box;
     padding: 30px;
-    margin: 40px 30px;
     box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
     background: #fff;
     min-height: 320px;
@@ -417,8 +420,8 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
   }
   
   .projects .project-item .project-img {
-    width: 90px;
-    border-radius: 50%;
+    width: 80%;
+    border-radius: 5%;
     border: 4px solid #fff;
     margin: 0 auto;
   }
@@ -436,13 +439,17 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     margin: 0;
   }
 
-.projects .project-item p {
+  .projects .project-item p {
     font-size: 17px;
     margin: 0 auto 15px auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   
   .projects .swiper-pagination {
-    margin-top: 20px;
+    margin-top: 50px;
     position: relative;
   }
   
@@ -458,9 +465,14 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     background-color: #4154f1;
   }
   
-  .projects .swiper-slide {
+  .projects .swiper-wrapper > .swiper-slide {
     opacity: 0.3;
   }
+  
+  .projects .swiper-slide.swiper-slide-active {
+    opacity: 1;
+    transform: scale(1.12) !important;
+}
   
   .clickable-div {
     text-decoration: none;
@@ -471,26 +483,23 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     text-decoration: none; 
     color: inherit; 
   }
-    
-  @media (max-width: 1199px) {
+
+  @media (max-width: 767px) {
+    .projects .project-item .project-img {
+      max-height: 150px;
+      width: auto;
+    }
     .projects .swiper-slide-active {
       opacity: 1;
     }
-  
-    .projects .swiper-pagination {
-      margin-top: 0;
-    }
   }
   
-  @media (min-width: 1200px) {
-    .projects .swiper-slide-next {
+  @media (min-width: 768px) {
+    .projects .swiper-slide-active {
       opacity: 1;
-      transform: scale(1.12) !important;
     }
   }
   
-
-
 /* ------------------------------------- */
 /* ----- Footer ----- */
 /* ------------------------------------- */
