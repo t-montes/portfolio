@@ -41,7 +41,7 @@ const projects = [
     scenario: 'Scenario 4',
     stars: 5,
     description:
-      'In various pages, such as “Last session”, “Favorites” and “Stats” the app offers features that remain accessible even when there is no internet connectivity, it ',
+      'In various pages, such as “Last session”, “Favorites” and “Stats” the app offers features that remain accessible even when there is no internet connectivity, it lorem ipsum dolor sit amet afhdashjgdsaa dnmavd dghsjadga gashdgajdh ajghsadg sad avgh',
     imageUrl: 'https://picsum.photos/900?image=107',
   },
   {
