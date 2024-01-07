@@ -1,7 +1,7 @@
 [
     { 
         "name":"Cov-Info Bogotá",
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Introduction to Systems Engineering",
         "date":"Jun, 2020",
         "authors":[
@@ -13,7 +13,6 @@
         "technologies":[
             "Python",
             "Flask",
-            "HTML, CSS, JS",
             "App Inventor",
             "Google Firebase"
         ],
@@ -25,11 +24,14 @@
         ],
         "links":{
             "Github":"https://github.com/t-montes/Cov-Info-Bogota"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     },
     { 
         "name":"PensuManager",
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Personal",
         "date":"Aug, 2020",
         "authors":[
@@ -46,11 +48,14 @@
         ],
         "links":{
             "Github":"https://github.com/t-montes/PensuManager"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     },
     { 
         "name":"Frogger",
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Electronic Digital Systems",
         "date":"Jun, 2021",
         "authors":[
@@ -69,11 +74,14 @@
         ],
         "links":{
             "Github":"https://github.com/t-montes/FPGA-Frogger"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     },
     { 
         "name":"Med4Pet",
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Sotfware Development",
         "date":"Dec, 2021",
         "authors":[
@@ -87,10 +95,9 @@
         "technologies":[
             "Java",
             "Spring",
-            "HTML, CSS, JS",
             "Angular",
             "TypeScript",
-            "H2 Database"
+            "H2 DB"
         ],
         "tags":[
             "API",
@@ -99,11 +106,14 @@
         "links":{
             "Github Backend":"https://github.com/t-montes/DSW-Med4Pet_Back",
             "Github Frontend":"https://github.com/t-montes/DSW-Med4Pet_Front"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     },
     { 
         "name":"Vamo'",
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Design and Innovation of IT Products",
         "date":"Dec, 2022",
         "authors":[
@@ -119,7 +129,6 @@
             "React",
             "NestJS",
             "PostgreSQL",
-            "HTML, CSS, JS",
             "Figma"
         ],
         "tags":[
@@ -130,11 +139,14 @@
         "links":{
             "Video Pitch":"https://www.youtube.com/watch?v=wKsywb-x6aE",
             "Video Prototipo":"https://youtu.be/RqD0B-SU5U8?t=69"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     },
     { 
         "name":"Avanzo",
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Software Architecture",
         "date":"Dec, 2022",
         "authors":[
@@ -162,11 +174,14 @@
         "links":{
             "Github Backend Django":"https://github.com/t-montes/ArquiSoft-BackDjango",
             "Github Backend Nestjs":"https://github.com/t-montes/ArquiSoft-BackNestJS"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     },
     { 
         "name":"Chocolatera",    
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Electronic Instrumentation",
         "date":"Jun, 2023",
         "authors":[
@@ -186,11 +201,14 @@
         ],
         "links":{
             "Github":"https://github.com/t-montes/Chocolatera-Instrumentacion"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     },
     { 
         "name":"Robotics",
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Robotics",
         "date":"Jun, 2023",
         "authors":[
@@ -215,11 +233,14 @@
         ],
         "links":{
             "Github":"https://github.com/orgs/Bogota-Dynamics/repositories"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     },
     { 
         "name":"Film Feedback",
-        "description":"",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
         "subject":"Business Intelligence",
         "date":"May, 2023",
         "authors":[
@@ -243,6 +264,9 @@
         ],
         "links":{
             "Github":"https://github.com/t-montes/FilmFeedback"
-        }
+        },
+        "images":[
+            "https://picsum.photos/900?image=101"
+        ]
     }
 ]

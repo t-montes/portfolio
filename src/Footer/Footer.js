@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function Footer(props) {
-    return(
+	const [isMobile, setIsMobile] = useState(window.innerWidth < 550);
+
+	useEffect(() => {
+		const handleResize = () => {
+		  setIsMobile(window.innerWidth < 550);
+		};
+		window.addEventListener('resize', handleResize);
+	
+		return () => {
+		  window.removeEventListener('resize', handleResize);
+		};
+	  }, []);
+	
+	return(
         <footer className="footer" id="footer">
 		<nav>
 			<ul className="footer__social-links">
@@ -17,7 +30,7 @@ function Footer(props) {
 				<li className="number"></li>
 				<li>
 					<a href="mailto:santiago.montesb@gmail.com" className="number">santiago.montesb@gmail.com</a>
-					&nbsp; | &nbsp;
+					{isMobile ? " " : " | "}
 					<a href="mailto:t.montes@uniandes.edu.co" className="number">t.montes@uniandes.edu.co</a>
 				</li>
 			</ul>

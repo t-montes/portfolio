@@ -2,14 +2,20 @@ import React from 'react';
 
 const ProjectCard = ({ project }) => (
   <div className="swiper-slide">
-    <a href={`#modal-${project.id}`} className="clickable-div">
+    <a href={`#modal-${project.name}`} className="clickable-div">
       <div className="project-item">
-        <h3>{project.title}</h3>
-        <h4>{project.scenario}</h4>
-        <p>{project.description}</p>
+        <h3>{project.name}</h3>
+        <h4>{project.technologies?.map((tech, i) => 
+          <React.Fragment key={i}>{tech} {i !== project.technologies.length - 1 && <b> · </b>}</React.Fragment>
+        )}</h4>
+
+        <p className="project-description">{project.description}</p>
+
         <div className="profile">
-          <img src={project.imageUrl} className="project-img" alt="" />
+          <img src={project.images[0]} className="project-img" alt="" />
         </div>
+
+        <p className="project-date">{project.date}</p>
       </div>
     </a>
   </div>
