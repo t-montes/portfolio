@@ -47,8 +47,8 @@ const Projects = () => {
           ref={swiperRef}
         >
           {projects.map((project, index) => (
-            <SwiperSlide key={project.name} onClick={() => handleClick((index) % projects.length)}>
-              <ProjectCard project={project} />
+            <SwiperSlide key={index} onClick={() => handleClick((index) % projects.length)}>
+              <ProjectCard project={project} index={index} />
             </SwiperSlide>
           ))}
         </Swiper>

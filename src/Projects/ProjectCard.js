@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ProjectCard = ({ project }) => (
+const ProjectCard = ({ project, index }) => (
   <div className="swiper-slide">
-    <a href={`#modal-${project.name}`} className="clickable-div">
+    <a href={`#modal-${index}`} className="clickable-div">
       <div className="project-item">
         <h3>{project.name}</h3>
         <h4>{project.technologies?.map((tech, i) => 
