@@ -1,5 +1,7 @@
 import React from "react";
 import projects from './projects.json';
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Modal = ({ id, closeModal }) => {
   const project = projects[id];
@@ -23,6 +25,13 @@ const Modal = ({ id, closeModal }) => {
           />
         </svg>
       </div>
+
+      <Carousel useKeyboardArrows={true} showThumbs={false}>
+        {project.images.map((path, index) => (
+          <img alt={`${project.name} image ${index}`} src={path} key={index} />
+        ))}
+      </Carousel>
+
       <p>Modal content goes here...</p>
     </div>
   </div>
