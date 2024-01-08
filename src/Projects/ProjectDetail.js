@@ -1,16 +1,44 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import projects from './projects.json';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Modal = ({ id, closeModal }) => {
+  const [isPC, setIsPC] = useState(window.innerWidth >= 768);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsPC(window.innerWidth >= 768);
+    };
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const project = projects[id];
+
   return (
   <div className="modal-overlay" onClick={closeModal}>
     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
       <div className="modal-header">
         <h2>{project.name}</h2>
       </div>
+
+      <div className="row">
+        <div className={"" + (isPC ? " col" : "")}>
+          <Carousel useKeyboardArrows={true} showThumbs={isPC ? true : false}>
+            {project.images.map((path, index) => (
+              <img alt={`${project.name} image ${index}`} src={path} key={index} />
+            ))}
+          </Carousel>
+        </div>
+
+        <div className={"modal-right" + (isPC ? " col" : "")}>
+          <p className="modal-description">{project.description}</p>
+        </div>
+      </div>
+
       <div className="close-button" onClick={closeModal}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -25,14 +53,6 @@ const Modal = ({ id, closeModal }) => {
           />
         </svg>
       </div>
-
-      <Carousel useKeyboardArrows={true} showThumbs={false}>
-        {project.images.map((path, index) => (
-          <img alt={`${project.name} image ${index}`} src={path} key={index} />
-        ))}
-      </Carousel>
-
-      <p>Modal content goes here...</p>
     </div>
   </div>
   );
