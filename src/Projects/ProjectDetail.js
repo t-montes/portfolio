@@ -25,8 +25,10 @@ const Modal = ({ id, closeModal }) => {
         <h2>{project.name}</h2>
       </div>
 
+      <p className="modal-date">{project.date}</p>
+
       <div className="row">
-        <div className={"" + (isPC ? " col" : "")}>
+        <div className={"modal-left" + (isPC ? " col" : "")}>
           <Carousel useKeyboardArrows={true} showThumbs={isPC ? true : false}>
             {project.images.map((path, index) => (
               <img alt={`${project.name} image ${index}`} src={path} key={index} />

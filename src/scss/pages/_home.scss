@@ -543,19 +543,14 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     width: 100%;
     text-align: center;
     background-color: #fff !important;
+    max-height: 95vh;
+    overflow-y: auto;
   
-    .modal-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  
-      h2 {
+    .modal-header h2 {
         color: #111;
         font-weight: 400;
-        margin-bottom: 10px;
         text-align: center;
         flex-grow: 1;
-      }
     }
   
     .close-button {
@@ -575,13 +570,18 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     .modal-content {
       max-width: 550px;
     }
+    .modal-left {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
     .modal-header h2 {
         font-size: 23px;
       }
     .modal-description {
-        max-height: 5em;
+        max-height: 8.3em;
         overflow-y: auto;
         margin-top: 20px;
+        border: 1px inset #ccc;
     }
   }
 
