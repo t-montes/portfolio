@@ -18,6 +18,18 @@ const Modal = ({ id, closeModal }) => {
 
   const project = projects[id];
 
+  /* for each "links":{
+    "Github":"https://github.com/t-montes/PensuManager"
+  }, add an <a> with the name and the blank href */
+  const links = [];
+  for (const [key, value] of Object.entries(project.links)) {
+    links.push(
+      <a key={value} href={value} target="_blank" rel="noreferrer">
+        {key}
+      </a>
+    );
+  }
+
   return (
   <div className="modal-overlay" onClick={closeModal}>
     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -31,13 +43,23 @@ const Modal = ({ id, closeModal }) => {
         <div className={"modal-left" + (isPC ? " col" : "")}>
           <Carousel useKeyboardArrows={true} showThumbs={isPC ? true : false}>
             {project.images.map((path, index) => (
-              <img alt={`${project.name} image ${index}`} src={path} key={index} />
+              <img alt={`${project.name} ${index}`} src={path} key={index} />
             ))}
           </Carousel>
         </div>
 
-        <div className={"modal-right" + (isPC ? " col" : "")}>
-          <p className="modal-description">{project.description}</p>
+        <div className={"modal-right d-flex align-items-center" + (isPC ? " col" : "")}>
+          <div>
+            <div className="modal-links">{links.map((e, i) => 
+              <React.Fragment key={i}>{e}{i !== links.length - 1 && <span> · </span>}</React.Fragment>
+            )}</div>
+            <p className="modal-description">{project.description}</p>
+            <p className="modal-madeby">
+              <span className="modal-madeby-title">Authors: </span> {project.authors.map((author, i) => (
+                <React.Fragment key={i}>{author}{i !== project.authors.length - 1 && <span>, </span>}</React.Fragment>
+              ))}
+            </p>
+          </div>
         </div>
       </div>
 

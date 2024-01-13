@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter, useLocation, useNavigate } from "react-router-dom";
 import Menu from "./Menu/Menu";
 import LandingPage from "./LandingPage/LandingPage";
@@ -13,14 +13,14 @@ function App() {
 
   return (
     <BrowserRouter>
-      <ScrollToHashElement setModalId={setModalId} />
+      <ScrollToHashElement modalId={modalId} setModalId={setModalId} />
       <div className="App">
         <Menu />
         <LandingPage />
         <main role="main">
           <AboutMe />
           <Projects />
-          <Skillset />
+          <Skillset showSlideshow={modalId===null} />
         </main>
         <Footer />
         {modalId && <Modal id={modalId} closeModal={() => setModalId(null)} />}
@@ -29,21 +29,21 @@ function App() {
   );
 }
 
-const ScrollToHashElement = ({ setModalId }) => {
+const ScrollToHashElement = ({ modalId, setModalId }) => {
   let location = useLocation();
   let navigate = useNavigate();
 
   useEffect(() => {
     const removeHashCharacter = (str) => str.slice(1);
-
+  
     const handleHashChange = () => {
       let hash = location.hash;
-
+  
       if (hash.startsWith('#modal')) {
         // Remove the hash from the URL without adding a new entry to the history
         // extract modal ID from "#modal-ID"
         navigate(location.pathname);
-
+  
         let modalId = hash.substring(hash.indexOf('-')+1);
         setModalId(modalId);
       } else {
@@ -56,15 +56,24 @@ const ScrollToHashElement = ({ setModalId }) => {
         }
       }
     };
-
+  
+    const handleKeyPress = (e) => {
+      if (e.key === 'Escape' && modalId) {
+        setModalId(null);
+      }
+    };
+  
     window.addEventListener("hashchange", handleHashChange);
-    handleHashChange();
-
+    window.addEventListener('keydown', handleKeyPress);
+  
+    handleHashChange(); // Initial call
+  
     return () => {
       window.removeEventListener("hashchange", handleHashChange);
+      window.removeEventListener('keydown', handleKeyPress);
     };
-  }, [location, setModalId]);
-
+  }, [location, setModalId, navigate, modalId]);
+  
   return null;
 };
 

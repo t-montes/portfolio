@@ -412,23 +412,14 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     box-sizing: content-box;
     padding: 30px 30px 10px 30px; /* top right bottom left */
     box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
-    background: #e0e0e0;
+    background: rgb(231, 231, 231);
     display: flex;
     flex-direction: column;
     text-align: center;
     transition: 0.3s;
 }
-  
-  .projects .project-item .stars {
-    margin-bottom: 15px;
-  }
-  
-  .projects .project-item .stars i {
-    color: #ffc107;
-    margin: 0 1px;
-  }
-  
-  .projects .project-item .project-img {
+
+.projects .project-item .project-img {
     width: 60%;
     border-radius: 5%;
     border: 4px solid transparent;
@@ -543,9 +534,21 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     width: 100%;
     text-align: center;
     background-color: #fff !important;
-    max-height: 95vh;
+    max-height: 100vh;
     overflow-y: auto;
-  
+
+    [href^='http'] {
+        color: rgb(107, 142, 141);
+        text-decoration: none;
+        border-bottom: 1px dashed rgb(127, 187, 185);
+        transition: all .2s;
+
+        &:hover {
+            color: rgb(34, 75, 87);
+            border-bottom: 1px dashed rgb(34, 75, 87);
+        }
+    }
+
     .modal-header h2 {
         color: #111;
         font-weight: 400;
@@ -571,16 +574,19 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
       max-width: 550px;
     }
     .modal-left {
-        max-width: 90% !important;
+        max-width: 340px !important;
         margin: 0 auto;
     }
     .modal-header h2 {
         font-size: 23px;
       }
+    .modal-links {
+        font-weight: 600;
+        margin-top: 20px;
+    }
     .modal-description {
         max-height: 8.3em;
         overflow-y: auto;
-        margin-top: 20px;
         border: 1px inset #ccc;
     }
   }
@@ -595,11 +601,18 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
   }
 
   .modal-right {
-    display: flex;
-    align-items: center;
-
-    .modal-description {
+    p, a {
         font-weight: 400;
+    }
+    .modal-description {
+        margin-top: 15px;
+    }
+    .modal-madeby {
+        color: rgb(112, 66, 66);
+    }
+    .modal-madeby-title {
+        font-weight: 600;
+        color: rgb(73, 29, 29);
     }
   }
 
