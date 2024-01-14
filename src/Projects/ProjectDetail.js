@@ -40,7 +40,7 @@ const Modal = ({ id, closeModal }) => {
       <p className="modal-date">{project.date}</p>
 
       <div className="row">
-        <div className={"modal-left" + (isPC ? " col" : "")}>
+        <div className={"modal-left" + (isPC ? " col-7" : "")}>
           <Carousel useKeyboardArrows={true} showThumbs={isPC ? true : false}>
             {project.images.map((path, index) => (
               <img alt={`${project.name} ${index}`} src={path} key={index} />
@@ -48,14 +48,14 @@ const Modal = ({ id, closeModal }) => {
           </Carousel>
         </div>
 
-        <div className={"modal-right d-flex align-items-center" + (isPC ? " col" : "")}>
+        <div className={"modal-right d-flex align-items-center" + (isPC ? " col-5" : "")}>
           <div>
             <div className="modal-links">{links.map((e, i) => 
               <React.Fragment key={i}>{e}{i !== links.length - 1 && <span> · </span>}</React.Fragment>
             )}</div>
             <p className="modal-description">{project.description}</p>
             <p className="modal-madeby">
-              <span className="modal-madeby-title">Authors: </span> {project.authors.map((author, i) => (
+              <span className="modal-madeby-title">Author{project.authors.length > 1 && "s"}: </span> {project.authors.map((author, i) => (
                 <React.Fragment key={i}>{author}{i !== project.authors.length - 1 && <span>, </span>}</React.Fragment>
               ))}
             </p>

@@ -11,6 +11,14 @@ import Modal from "./Projects/ProjectDetail"; // Import your Modal component her
 function App() {
   const [modalId, setModalId] = useState(null);
 
+  useEffect(() => {
+    if (modalId===null) {
+      document.documentElement.style.overflowY = 'visible';
+    } else {
+      document.documentElement.style.overflowY = 'hidden';
+    }
+  }, [modalId]);
+
   return (
     <BrowserRouter>
       <ScrollToHashElement modalId={modalId} setModalId={setModalId} />
@@ -66,7 +74,7 @@ const ScrollToHashElement = ({ modalId, setModalId }) => {
     window.addEventListener("hashchange", handleHashChange);
     window.addEventListener('keydown', handleKeyPress);
   
-    handleHashChange(); // Initial call
+    handleHashChange();
   
     return () => {
       window.removeEventListener("hashchange", handleHashChange);

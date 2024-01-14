@@ -267,7 +267,10 @@
             "Github":"https://github.com/t-montes/FilmFeedback"
         },
         "images":[
-            "https://picsum.photos/900?image=101"
-        ]
+            "./img/projects/Film Feedback/1.png",
+            "./img/projects/Film Feedback/2.png",
+            "./img/projects/Film Feedback/3.png"
+        ],
+        "icon":"./img/projects/Film Feedback/icon.png"
     }
 ]

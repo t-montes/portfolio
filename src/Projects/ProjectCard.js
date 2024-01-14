@@ -12,7 +12,7 @@ const ProjectCard = ({ project, index }) => (
         <p className="project-description">{project.description}</p>
 
         <div className="profile">
-          <img src={project.images[0]} className="project-img" alt="" />
+          <img src={project.icon??project.images[0]} className="project-img" alt="" />
         </div>
 
         <p className="project-date">{project.date}</p>

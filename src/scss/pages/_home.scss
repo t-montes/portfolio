@@ -420,7 +420,7 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
 }
 
 .projects .project-item .project-img {
-    width: 60%;
+    width: 90%;
     border-radius: 5%;
     border: 4px solid transparent;
     margin: 0 auto;
@@ -495,8 +495,8 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
         min-height: 410px;
     }
     .projects .project-item .project-img {
-      max-height: 150px;
-      width: auto;
+      width: 90%;
+      max-width: 300px;
     }
     .projects .swiper-slide-active {
       opacity: 1;
@@ -563,8 +563,8 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
       right: 10px;
   
       svg {
-        width: 24px;
-        height: 24px;
+        width: 34px;
+        height: 34px;
       }
     }
   }
@@ -618,6 +618,10 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
 
   .thumbs-wrapper {
     margin-bottom: 0px !important;
+  }
+
+  .carousel .slider-wrapper .slider .slide {
+    border: 1px solid #ccc;
   }
   
 /* ------------------------------------- */
