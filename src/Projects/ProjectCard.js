@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({ project, index }) => (
   <div className="swiper-slide">
-    <a href={`#modal-${index}`} className="clickable-div">
+    <a href={`#project-${index}`} className="clickable-div">
       <div className="project-item">
         <h3>{project.name}</h3>
         <h4>{project.technologies?.map((tech, i) => 
@@ -11,8 +11,8 @@ const ProjectCard = ({ project, index }) => (
 
         <p className="project-description">{project.description}</p>
 
-        <div className="profile">
-          <img src={project.icon??project.images[0]} className="project-img" alt="" />
+        <div className="project-img-container">
+          <img src={project.icon??project.images[0]} className="project-img" alt={project.name + " icon"} />
         </div>
 
         <p className="project-date">{project.date}</p>

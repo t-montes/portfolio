@@ -47,9 +47,9 @@ const ScrollToHashElement = ({ modalId, setModalId }) => {
     const handleHashChange = () => {
       let hash = location.hash;
   
-      if (hash.startsWith('#modal')) {
+      if (hash.startsWith('#project-')) {
         // Remove the hash from the URL without adding a new entry to the history
-        // extract modal ID from "#modal-ID"
+        // extract modal ID from "#project-ID"
         navigate(location.pathname);
   
         let modalId = hash.substring(hash.indexOf('-')+1);

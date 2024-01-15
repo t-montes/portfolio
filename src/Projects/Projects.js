@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
-import projects from './projects.json';
+import projects from '../lang/projects.en.json';
 
 const Projects = () => {
   const [isPC, setIsPC] = useState(window.innerWidth >= 768);

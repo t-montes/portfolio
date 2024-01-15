@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import projects from './projects.json';
+import projects from '../lang//projects.en.json';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 

@@ -1,0 +1,39 @@
+[
+    { 
+        "name":"Cov-Info Bogotá",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Introduction to Systems Engineering",
+        "date":"May, 2020",
+        "authors":[
+            "Tony Montes",
+            "Brian Rivera",
+            "Luisa Fuentes",
+            "Daniel Sarmiento"
+        ],
+        "technologies":[
+            "Python",
+            "Flask",
+            "App Inventor",
+            "Firebase"
+        ],
+        "tags":[
+            "COVID-19",
+            "Bogotá",
+            "Mobile",
+            "App"
+        ],
+        "links":{
+            "Github":"https://github.com/t-montes/Cov-Info-Bogota",
+            "Video Expoandes": "https://www.youtube.com/watch?v=6EX2NwzgN9I"
+        },
+        "icon": "./img/projects/Cov-Info Bogotá/icon.png",
+        "images":[
+            "./img/projects/Cov-Info Bogotá/1.png",
+            "./img/projects/Cov-Info Bogotá/2.png",
+            "./img/projects/Cov-Info Bogotá/3.png",
+            "./img/projects/Cov-Info Bogotá/4.png",
+            "./img/projects/Cov-Info Bogotá/5.png",
+            "./img/projects/Cov-Info Bogotá/6.jpeg"
+        ]
+    }
+]
