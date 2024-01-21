@@ -23,7 +23,7 @@
             "App"
         ],
         "links":{
-            "Github":"https://github.com/t-montes/Cov-Info-Bogota",
+            "Github": "https://github.com/t-montes/Cov-Info-Bogota",
             "Video Expoandes": "https://www.youtube.com/watch?v=6EX2NwzgN9I"
         },
         "icon": "./img/projects/Cov-Info Bogotá/icon.png",
@@ -34,6 +34,132 @@
             "./img/projects/Cov-Info Bogotá/4.png",
             "./img/projects/Cov-Info Bogotá/5.png",
             "./img/projects/Cov-Info Bogotá/6.jpeg"
+        ]
+    },
+    {
+        "name": "PensuManager",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Personal",
+        "date":"Aug, 2020",
+        "authors":[
+            "Tony Montes"
+        ],
+        "technologies":[
+            "Python",
+            "Tkinter"
+        ],
+        "tags":[
+            "Pensum Planning",
+            "Desktop App",
+            "CSV"
+        ],
+        "links":{
+            "Github": "https://github.com/t-montes/PensuManager"
+        },
+        "icon": "./img/projects/PensuManager/icon.png",
+        "images":[
+            "./img/projects/PensuManager/1.png",
+            "./img/projects/PensuManager/2.png"
+        ]
+    },
+    {
+        "name": "Matyno",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Personal",
+        "date":"Dec, 2020",
+        "authors":[
+            "Tony Montes"
+        ],
+        "technologies":[
+            "Python",
+            "Tkinter"
+        ],
+        "tags":[
+            "Degree",
+            "Grades tracker",
+            "CSV"
+        ],
+        "links":{
+            "Github": "https://github.com/t-montes/Matyno"
+        },
+        "icon": "./img/projects/Matyno/icon.png",
+        "images":[
+            "./img/projects/Matyno/1.png",
+            "./img/projects/Matyno/2.png",
+            "./img/projects/Matyno/3.png",
+            "./img/projects/Matyno/4.png"
+        ]
+    },
+    { 
+        "name":"Frogger",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Electronic Digital Systems",
+        "date":"Jun, 2021",
+        "authors":[
+            "Tony Montes",
+            "Alejandro Pasachoa",
+            "Mateo Ortegon"
+        ],
+        "technologies":[
+            "Verilog",
+            "Quartus",
+            "ModelSim",
+            "FPGA"
+        ],
+        "tags":[
+            "Frogger Game",
+            "FPGA"
+        ],
+        "links":{
+            "Github": "https://github.com/t-montes/FPGA-Frogger",
+            "Video": "https://www.youtube.com/watch?v=bemeV4KzBMI",
+            "Wiki": "https://github.com/t-montes/FPGA-Frogger/blob/master/ProjectDesign-M06-Frogger/PDF_froggerG13-WIKI.pdf"
+        },
+        "icon": "./img/projects/Frogger/icon.png",
+        "images":[
+            "./img/projects/Frogger/game.png",
+            "./img/projects/Frogger/BB_SYSTEM-froggerG13_final.jpg",
+            "./img/projects/Frogger/led_matrix.png",
+            "./img/projects/Frogger/SIM_vector1.JPG"
+        ]
+    },
+    { 
+        "name":"Med4Pet",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Sotfware Development",
+        "date":"Dec, 2021",
+        "authors":[
+            "Tony Montes",
+            "Luccas Rojas",
+            "Shadith Perez",
+            "Daniel Villar",
+            "Gabriela Cagua",
+            "Carlos Marin"
+        ],
+        "technologies":[
+            "Java",
+            "Spring",
+            "TS",
+            "Angular",
+            "H2 DB"
+        ],
+        "tags":[
+            "API",
+            "Web Page"
+        ],
+        "links":{
+            "Github Backend":"https://github.com/t-montes/DSW-Med4Pet_Back",
+            "Github Frontend":"https://github.com/t-montes/DSW-Med4Pet_Front"
+        },
+
+        "icon": "./img/projects/Med4Pet/icon.png",
+        "images":[
+            "./img/projects/Med4Pet/1.png",
+            "./img/projects/Med4Pet/2.png",
+            "./img/projects/Med4Pet/3.png",
+            "./img/projects/Med4Pet/4.png",
+            "./img/projects/Med4Pet/5.png",
+            "./img/projects/Med4Pet/6.png"
         ]
     }
 ]

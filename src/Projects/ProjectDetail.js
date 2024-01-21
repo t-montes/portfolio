@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import projects from '../lang//projects.en.json';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { getImageSize } from 'react-image-size';
 
 const Modal = ({ id, closeModal }) => {
   const [isPC, setIsPC] = useState(window.innerWidth >= 768);
+  const [carouselElement, setCarouselElement] = useState(null); // New state variable
   useEffect(() => {
     const handleResize = () => {
       setIsPC(window.innerWidth >= 768);
@@ -18,17 +20,53 @@ const Modal = ({ id, closeModal }) => {
 
   const project = projects[id];
 
-  /* for each "links":{
-    "Github":"https://github.com/t-montes/PensuManager"
-  }, add an <a> with the name and the blank href */
   const links = [];
   for (const [key, value] of Object.entries(project.links)) {
     links.push(
-      <a key={value} href={value} target="_blank" rel="noreferrer">
-        {key}
-      </a>
+      <a key={value} href={value} target="_blank" rel="noreferrer">{key}</a>
     );
   }
+
+  useEffect(() => {
+    const loadImages = async () => {
+      const imagePromises = project.images.map(async (path, index) => {
+        try {
+          const size = await getImageSize(path);
+          const { width, height } = size;
+
+          return {
+            path,
+            isAuto: width < height ? true : false,
+          };
+        } catch (error) {
+          console.error(`Error getting size of image ${index + 1}: ${error.message}`);
+          return {
+            path,
+            isAuto: false
+          };
+        }
+      });
+
+      Promise.all(imagePromises).then((result) => {
+        const carousel = (
+          <Carousel useKeyboardArrows={true} showThumbs={isPC ? true : false}>
+            {result.map((image, index) => (
+              <img
+                alt={`${project.name} ${index}`}
+                src={image.path}
+                key={index}
+                className={image.isAuto ? "auto-width" : ""}
+              />
+            ))}
+          </Carousel>
+        );
+
+        setCarouselElement(carousel); // Update the state variable with the Carousel JSX
+      });
+    };
+
+    loadImages();
+  }, [project.images, project.name, isPC]);
 
   return (
   <div className="modal-overlay" onClick={closeModal}>
@@ -41,11 +79,7 @@ const Modal = ({ id, closeModal }) => {
 
       <div className="row">
         <div className={"modal-left" + (isPC ? " col-7" : "")}>
-          <Carousel useKeyboardArrows={true} showThumbs={isPC ? true : false}>
-            {project.images.map((path, index) => (
-              <img alt={`${project.name} ${index}`} src={path} key={index} />
-            ))}
-          </Carousel>
+          {carouselElement}
         </div>
 
         <div className={"modal-right d-flex align-items-center" + (isPC ? " col-5" : "")}>
@@ -53,7 +87,9 @@ const Modal = ({ id, closeModal }) => {
             <div className="modal-links">{links.map((e, i) => 
               <React.Fragment key={i}>{e}{i !== links.length - 1 && <span> · </span>}</React.Fragment>
             )}</div>
+            <div className={isPC ? "spacer" : ""}></div>
             <p className="modal-description">{project.description}</p>
+            <div className={isPC ? "spacer" : ""}></div>
             <p className="modal-madeby">
               <span className="modal-madeby-title">Author{project.authors.length > 1 && "s"}: </span> {project.authors.map((author, i) => (
                 <React.Fragment key={i}>{author}{i !== project.authors.length - 1 && <span>, </span>}</React.Fragment>

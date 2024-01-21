@@ -112,7 +112,7 @@
         font-weight: 400;
         display: inline-block; // Add this to make animation work
         background-size: 200% 100%; // Double the width to cover the entire animation
-        animation: pythonMoveColors 2s infinite linear; // Adjust the duration and timing function as needed
+        animation: pythonMoveColors 5s infinite linear; // Adjust the duration and timing function as needed
     }
 
     @keyframes pythonMoveColors {
@@ -120,7 +120,7 @@
         0% {
             background-position: 0% 100%;
         } 50% {
-            background-position: 50% 50%;
+            background-position: 100% 0%;
         } 100% {
             background-position: 0% 100%;
         }
@@ -408,9 +408,8 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
 
 .projects .project-item {
     color: #444444;
-    margin-top: 15px;
     box-sizing: content-box;
-    padding: 30px 30px max(30px, 10%) 30px; /* top right bottom left */
+    padding: 30px 30px 10px 30px; /* top right bottom left */
     box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
     background: rgb(231, 231, 231);
     display: flex;
@@ -478,6 +477,10 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
   .projects .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #52524E;
   }
+
+  .projects .swiper-wrapper {
+    margin-top: 50px;
+  }
   
   .projects .swiper-wrapper > .swiper-slide {
     opacity: 0.5;
@@ -485,8 +488,14 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
   
   .projects .swiper-slide.swiper-slide-active {
     opacity: 1;
-    transform: scale(1.12) !important;
-}
+  }
+
+  @media (min-width: 768px) {
+    .projects .swiper-slide.swiper-slide-active {
+        transform: scale(1.12) !important;
+        box-shadow: 0px 0 20px rgba(1, 41, 112, 0.3);
+    }
+  }
   
   .clickable-div {
     text-decoration: none;
@@ -640,14 +649,15 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
   }
 
   .carousel .slider-wrapper .slider .slide {
-    border: 1px solid #ccc;
-
     img {
         max-height: 50vh;
+    }
+
+    .auto-width {
         width: auto;
     }
   }
-  
+
 /* ------------------------------------- */
 /* ----- Footer ----- */
 /* ------------------------------------- */
@@ -745,4 +755,8 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     }
 
 
+}
+
+.spacer {
+    height: 2rem;
 }
