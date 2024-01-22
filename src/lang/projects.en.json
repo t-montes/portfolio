@@ -23,8 +23,8 @@
             "App"
         ],
         "links":{
-            "Github": "https://github.com/t-montes/Cov-Info-Bogota",
-            "Video Expoandes": "https://www.youtube.com/watch?v=6EX2NwzgN9I"
+            "Video": "https://www.youtube.com/watch?v=6EX2NwzgN9I",
+            "Github": "https://github.com/t-montes/Cov-Info-Bogota"
         },
         "icon": "./img/projects/Cov-Info Bogotá/icon.png",
         "images":[
@@ -111,9 +111,9 @@
             "FPGA"
         ],
         "links":{
-            "Github": "https://github.com/t-montes/FPGA-Frogger",
             "Video": "https://www.youtube.com/watch?v=bemeV4KzBMI",
-            "Wiki": "https://github.com/t-montes/FPGA-Frogger/blob/master/ProjectDesign-M06-Frogger/PDF_froggerG13-WIKI.pdf"
+            "Wiki": "https://github.com/t-montes/FPGA-Frogger/blob/master/ProjectDesign-M06-Frogger/PDF_froggerG13-WIKI.pdf",
+            "Github": "https://github.com/t-montes/FPGA-Frogger"
         },
         "icon": "./img/projects/Frogger/icon.png",
         "images":[
@@ -160,6 +160,91 @@
             "./img/projects/Med4Pet/4.png",
             "./img/projects/Med4Pet/5.png",
             "./img/projects/Med4Pet/6.png"
+        ]
+    },
+    {
+        "name":"Vamo'",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Design and Innovation of IT Products",
+        "date":"Dec, 2022",
+        "authors":[
+            "Tony Montes",
+            "Brian Rivera",
+            "Shadith Perez",
+            "Daniel Bernal",
+            "Obed Cabanzo"
+        ],
+        "technologies":[
+            "JS",
+            "React Native",
+            "TS",
+            "NestJS",
+            "PostgreSQL",
+            "Figma"
+        ],
+        "tags":[
+            "API",
+            "Mobile",
+            "App"
+        ],
+        "links":{
+            "Pitch":"https://www.youtube.com/watch?v=wKsywb-x6aE",
+            "Prototype Video":"https://youtu.be/RqD0B-SU5U8?t=69",
+            "API Documentation": "https://github.com/Vamo-App/VamoApp_Back/blob/master/Vamo%20-%20API%20Documentation.pdf",
+            "Github Frontend": "https://github.com/Vamo-App/VamoApp_Front",
+            "Github Backend": "https://github.com/Vamo-App/VamoApp_Back"
+        },
+        "icon": "./img/projects/Vamo/vamo-logo3d2.png",
+        "images":[
+            "./img/projects/Vamo/act1.png",
+            "./img/projects/Vamo/act2.png",
+            "./img/projects/Vamo/app1.png",
+            "./img/projects/Vamo/app2.png",
+            "./img/projects/Vamo/app3.png",
+            "./img/projects/Vamo/Vamo UML-v1.jpeg"
+        ]
+    },
+    { 
+        "name":"Avanzo",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Software Architecture",
+        "date":"Dec, 2022",
+        "authors":[
+            "Tony Montes",
+            "Luccas Rojas",
+            "Brian Rivera",
+            "Thais Tamaio"
+        ],
+        "technologies":[
+            "Python",
+            "TS",
+            "Django",
+            "PostgreSQL",
+            "Auth0",
+            "NestJS",
+            "MongoDB"
+        ],
+        "tags":[
+            "API",
+            "Web Page",
+            "Authentication",
+            "SQL",
+            "NoSQL"
+        ],
+        "links":{
+            "Video": "https://www.youtube.com/watch?v=fphFscUsDJ0",
+            "Github Backend Django":"https://github.com/t-montes/ArquiSoft-BackDjango",
+            "Github Backend Nestjs":"https://github.com/t-montes/ArquiSoft-BackNestJS"
+        },
+        "icon": "./img/projects/Avanzo/Equipo.jpg",
+        "images":[
+            "./img/projects/Avanzo/1.png",
+            "./img/projects/Avanzo/2.png",
+            "./img/projects/Avanzo/3.png",
+            "./img/projects/Avanzo/certi.png",
+            "./img/projects/Avanzo/Metateoremas-Despliegue.jpeg",
+            "./img/projects/Avanzo/Metateoremas-Componentes.jpeg",
+            "./img/projects/Avanzo/Equipo.jpg"
         ]
     }
 ]

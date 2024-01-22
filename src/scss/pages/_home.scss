@@ -597,6 +597,10 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     }
   }
 
+  .modal-links {
+    font-weight: 600;
+  }
+
   @media(max-width: 767px) {
     .modal-content {
       max-width: 550px;
@@ -609,7 +613,6 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
         font-size: 23px;
       }
     .modal-links {
-        font-weight: 600;
         margin-top: 20px;
     }
     .modal-description {
