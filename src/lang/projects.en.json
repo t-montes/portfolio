@@ -246,5 +246,116 @@
             "./img/projects/Avanzo/Metateoremas-Componentes.jpeg",
             "./img/projects/Avanzo/Equipo.jpg"
         ]
+    },
+    { 
+        "name":"Chocolate Maker",    
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Electronic Instrumentation",
+        "date":"Jun, 2023",
+        "authors":[
+            "Tony Montes",
+            "Julian Parra",
+            "Fernando Álvarez",
+            "Santiago Pardo"
+        ],
+        "technologies":[
+            "Arduino",
+            "UX",
+            "BT HC-05",
+            "Concurrency",
+            "App Inventor"
+        ],
+        "tags":[
+            "Precision",
+            "Sensorics",
+            "Automation"
+        ],
+        "links":{
+            "Video": "https://youtu.be/bzOoEHJ-7M0",
+            "Github":"https://github.com/t-montes/Chocolatera-Instrumentacion"
+        },
+        "icon": "./img/projects/Chocolate Maker/1.png",
+        "images":[
+            "./img/projects/Chocolate Maker/1.png",
+            "./img/projects/Chocolate Maker/2.png",
+            "./img/projects/Chocolate Maker/3.jpeg",
+            "./img/projects/Chocolate Maker/4.png",
+            "./img/projects/Chocolate Maker/diagrama-circuital.jpeg"
+        ]
+    },
+    { 
+        "name":"NMP Robot",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Robotics",
+        "date":"Jun, 2023",
+        "authors":[
+            "Tony Montes",
+            "Sebastian Guerrero",
+            "Fernanda Tarquino",
+            "Satiago Rueda"
+        ],
+        "technologies":[
+            "Python",
+            "ROS",
+            "OpenCV",
+            "A*",
+            "Arduino"
+        ],
+        "tags":[
+            "Automatic Navigation",
+            "Automatic Manipulation",
+            "Computer Vision",
+            "Localization",
+            "Path Planning",
+            "Mapping"
+        ],
+        "links":{
+            "Navigation Test": "https://youtube.com/shorts/DkTncyIRM6M?feature=share",
+            "Github":"https://github.com/orgs/Bogota-Dynamics/repositories"
+        },
+        "icon": "./img/projects/NMP Robot/whole.jpeg",
+        "images":[
+            "./img/projects/NMP Robot/whole.jpeg",
+            "./img/projects/NMP Robot/front.jpeg",
+            "./img/projects/NMP Robot/lateral.jpeg",
+            "./img/projects/NMP Robot/start.jpeg",
+            "./img/projects/NMP Robot/track.jpeg"
+        ]
+    },
+    { 
+        "name":"Film Feedback",
+        "description":"Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject":"Business Intelligence",
+        "date":"May, 2023",
+        "authors":[
+            "Tony Montes",
+            "Luccas Rojas",
+            "Brian Rivera"
+        ],
+        "technologies":[
+            "Python",
+            "Scikit-Learn",
+            "NLTK",
+            "Seaborn",
+            "Pandas",
+            "Django"
+        ],
+        "tags":[
+            "Machine Learning",
+            "Logistic Regression",
+            "Data Analysis",
+            "Data Visualization",
+            "API",
+            "Web Page"
+        ],
+        "links":{
+            "Github":"https://github.com/t-montes/FilmFeedback"
+        },
+        "icon":"./img/projects/Film Feedback/icon.png",
+        "images":[
+            "./img/projects/Film Feedback/1.png",
+            "./img/projects/Film Feedback/2.png",
+            "./img/projects/Film Feedback/3.png"
+        ]
     }
 ]
