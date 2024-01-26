@@ -1,396 +1,45 @@
 [
     {
-        "name": "Cov-Info Bogotá",
+        "name": "UMeet",
         "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Introduction to Systems Engineering",
-        "date": "May, 2020",
-        "authors": [
-            "Tony Montes",
-            "Brian Rivera",
-            "Luisa Fuentes",
-            "Daniel Sarmiento"
-        ],
-        "technologies": [
-            "Python",
-            "Flask",
-            "App Inventor",
-            "Firebase"
-        ],
-        "tags": [
-            "COVID-19",
-            "Bogotá",
-            "Mobile",
-            "App"
-        ],
-        "links": {
-            "Video": "https://www.youtube.com/watch?v=6EX2NwzgN9I",
-            "Github": "https://github.com/t-montes/Cov-Info-Bogota"
-        },
-        "icon": "./img/projects/Cov-Info Bogotá/icon.png",
-        "images": [
-            "./img/projects/Cov-Info Bogotá/1.png",
-            "./img/projects/Cov-Info Bogotá/2.png",
-            "./img/projects/Cov-Info Bogotá/3.png",
-            "./img/projects/Cov-Info Bogotá/4.png",
-            "./img/projects/Cov-Info Bogotá/5.png",
-            "./img/projects/Cov-Info Bogotá/6.jpeg"
-        ]
-    },
-    {
-        "name": "PensuManager",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Personal",
-        "date": "Aug, 2020",
-        "authors": [
-            "Tony Montes"
-        ],
-        "technologies": [
-            "Python",
-            "Tkinter"
-        ],
-        "tags": [
-            "Pensum Planning",
-            "Desktop App",
-            "CSV"
-        ],
-        "links": {
-            "Github": "https://github.com/t-montes/PensuManager"
-        },
-        "icon": "./img/projects/PensuManager/icon.png",
-        "images": [
-            "./img/projects/PensuManager/1.png",
-            "./img/projects/PensuManager/2.png"
-        ]
-    },
-    {
-        "name": "Matyno",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Personal",
-        "date": "Dec, 2020",
-        "authors": [
-            "Tony Montes"
-        ],
-        "technologies": [
-            "Python",
-            "Tkinter"
-        ],
-        "tags": [
-            "Degree",
-            "Grades tracker",
-            "CSV"
-        ],
-        "links": {
-            "Github": "https://github.com/t-montes/Matyno"
-        },
-        "icon": "./img/projects/Matyno/icon.png",
-        "images": [
-            "./img/projects/Matyno/1.png",
-            "./img/projects/Matyno/2.png",
-            "./img/projects/Matyno/3.png",
-            "./img/projects/Matyno/4.png"
-        ]
-    },
-    {
-        "name": "Frogger",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Electronic Digital Systems",
-        "date": "Jun, 2021",
-        "authors": [
-            "Tony Montes",
-            "Alejandro Pasachoa",
-            "Mateo Ortegon"
-        ],
-        "technologies": [
-            "Verilog",
-            "Quartus",
-            "ModelSim",
-            "FPGA"
-        ],
-        "tags": [
-            "Frogger Game",
-            "FPGA"
-        ],
-        "links": {
-            "Video": "https://www.youtube.com/watch?v=bemeV4KzBMI",
-            "Wiki": "https://github.com/t-montes/FPGA-Frogger/blob/master/ProjectDesign-M06-Frogger/PDF_froggerG13-WIKI.pdf",
-            "Github": "https://github.com/t-montes/FPGA-Frogger"
-        },
-        "icon": "./img/projects/Frogger/icon.png",
-        "images": [
-            "./img/projects/Frogger/game.png",
-            "./img/projects/Frogger/BB_SYSTEM-froggerG13_final.jpg",
-            "./img/projects/Frogger/led_matrix.png",
-            "./img/projects/Frogger/SIM_vector1.JPG"
-        ]
-    },
-    {
-        "name": "Med4Pet",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Sotfware Development",
-        "date": "Dec, 2021",
-        "authors": [
-            "Tony Montes",
-            "Luccas Rojas",
-            "Shadith Perez",
-            "Daniel Villar",
-            "Gabriela Cagua",
-            "Carlos Marin"
-        ],
-        "technologies": [
-            "Java",
-            "Spring",
-            "TS",
-            "Angular",
-            "H2 DB"
-        ],
-        "tags": [
-            "API",
-            "Web Page"
-        ],
-        "links": {
-            "Github Backend": "https://github.com/t-montes/DSW-Med4Pet_Back",
-            "Github Frontend": "https://github.com/t-montes/DSW-Med4Pet_Front"
-        },
-        "icon": "./img/projects/Med4Pet/icon.png",
-        "images": [
-            "./img/projects/Med4Pet/1.png",
-            "./img/projects/Med4Pet/2.png",
-            "./img/projects/Med4Pet/3.png",
-            "./img/projects/Med4Pet/4.png",
-            "./img/projects/Med4Pet/5.png",
-            "./img/projects/Med4Pet/6.png"
-        ]
-    },
-    {
-        "name": "Vamo'",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Design and Innovation of IT Products",
-        "date": "Dec, 2022",
-        "authors": [
-            "Tony Montes",
-            "Brian Rivera",
-            "Shadith Perez",
-            "Daniel Bernal",
-            "Obed Cabanzo"
-        ],
-        "technologies": [
-            "JS",
-            "React Native",
-            "TS",
-            "NestJS",
-            "PostgreSQL",
-            "Figma"
-        ],
-        "tags": [
-            "API",
-            "Mobile",
-            "App"
-        ],
-        "links": {
-            "Pitch": "https://www.youtube.com/watch?v=wKsywb-x6aE",
-            "Prototype Video": "https://youtu.be/RqD0B-SU5U8?t=69",
-            "API Documentation": "https://github.com/Vamo-App/VamoApp_Back/blob/master/Vamo%20-%20API%20Documentation.pdf",
-            "Github Frontend": "https://github.com/Vamo-App/VamoApp_Front",
-            "Github Backend": "https://github.com/Vamo-App/VamoApp_Back"
-        },
-        "icon": "./img/projects/Vamo/vamo-logo3d2.png",
-        "images": [
-            "./img/projects/Vamo/act1.png",
-            "./img/projects/Vamo/act2.png",
-            "./img/projects/Vamo/app1.png",
-            "./img/projects/Vamo/app2.png",
-            "./img/projects/Vamo/app3.png",
-            "./img/projects/Vamo/Vamo UML-v1.jpeg"
-        ]
-    },
-    {
-        "name": "Avanzo",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Software Architecture",
-        "date": "Dec, 2022",
-        "authors": [
-            "Tony Montes",
-            "Luccas Rojas",
-            "Brian Rivera",
-            "Thais Tamaio"
-        ],
-        "technologies": [
-            "Python",
-            "TS",
-            "Django",
-            "PostgreSQL",
-            "Auth0",
-            "NestJS",
-            "MongoDB"
-        ],
-        "tags": [
-            "API",
-            "Web Page",
-            "Authentication",
-            "SQL",
-            "NoSQL"
-        ],
-        "links": {
-            "Video": "https://www.youtube.com/watch?v=fphFscUsDJ0",
-            "Github Backend Django": "https://github.com/t-montes/ArquiSoft-BackDjango",
-            "Github Backend Nestjs": "https://github.com/t-montes/ArquiSoft-BackNestJS"
-        },
-        "icon": "./img/projects/Avanzo/Equipo.jpg",
-        "images": [
-            "./img/projects/Avanzo/1.png",
-            "./img/projects/Avanzo/2.png",
-            "./img/projects/Avanzo/3.png",
-            "./img/projects/Avanzo/certi.png",
-            "./img/projects/Avanzo/Metateoremas-Despliegue.jpeg",
-            "./img/projects/Avanzo/Metateoremas-Componentes.jpeg",
-            "./img/projects/Avanzo/Equipo.jpg"
-        ]
-    },
-    {
-        "name": "Chocolate Maker",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Electronic Instrumentation",
-        "date": "Jun, 2023",
-        "authors": [
-            "Tony Montes",
-            "Julian Parra",
-            "Fernando Álvarez",
-            "Santiago Pardo"
-        ],
-        "technologies": [
-            "Arduino",
-            "UX",
-            "BT HC-05",
-            "Concurrency",
-            "App Inventor"
-        ],
-        "tags": [
-            "Precision",
-            "Sensorics",
-            "Automation"
-        ],
-        "links": {
-            "Video": "https://youtu.be/bzOoEHJ-7M0",
-            "Github": "https://github.com/t-montes/Chocolatera-Instrumentacion"
-        },
-        "icon": "./img/projects/Chocolate Maker/1.png",
-        "images": [
-            "./img/projects/Chocolate Maker/1.png",
-            "./img/projects/Chocolate Maker/2.png",
-            "./img/projects/Chocolate Maker/3.jpeg",
-            "./img/projects/Chocolate Maker/4.png",
-            "./img/projects/Chocolate Maker/diagrama-circuital.jpeg"
-        ]
-    },
-    {
-        "name": "NMP Robot",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Robotics",
-        "date": "Jun, 2023",
-        "authors": [
-            "Tony Montes",
-            "Sebastian Guerrero",
-            "M. Fernanda Tarquino",
-            "Satiago Rueda"
-        ],
-        "technologies": [
-            "Python",
-            "ROS",
-            "OpenCV",
-            "A*",
-            "Arduino"
-        ],
-        "tags": [
-            "Automatic Navigation",
-            "Automatic Manipulation",
-            "Computer Vision",
-            "Localization",
-            "Path Planning",
-            "Mapping"
-        ],
-        "links": {
-            "Navigation Test": "https://youtube.com/shorts/DkTncyIRM6M?feature=share",
-            "Github": "https://github.com/orgs/Bogota-Dynamics/repositories"
-        },
-        "icon": "./img/projects/NMP Robot/whole.jpeg",
-        "images": [
-            "./img/projects/NMP Robot/whole.jpeg",
-            "./img/projects/NMP Robot/front.jpeg",
-            "./img/projects/NMP Robot/lateral.jpeg",
-            "./img/projects/NMP Robot/start.jpeg",
-            "./img/projects/NMP Robot/track.jpeg"
-        ]
-    },
-    {
-        "name": "Film Feedback",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Business Intelligence",
-        "date": "May, 2023",
-        "authors": [
-            "Tony Montes",
-            "Luccas Rojas",
-            "Brian Rivera"
-        ],
-        "technologies": [
-            "Python",
-            "Scikit-Learn",
-            "NLTK",
-            "Seaborn",
-            "Pandas",
-            "Django"
-        ],
-        "tags": [
-            "Machine Learning",
-            "Logistic Regression",
-            "Data Analysis",
-            "Data Visualization",
-            "API",
-            "Web Page"
-        ],
-        "links": {
-            "Github": "https://github.com/t-montes/FilmFeedback"
-        },
-        "icon": "./img/projects/Film Feedback/icon.png",
-        "images": [
-            "./img/projects/Film Feedback/1.png",
-            "./img/projects/Film Feedback/2.png",
-            "./img/projects/Film Feedback/3.png"
-        ]
-    },
-    {
-        "name": "SITP IoT",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Internet of Everything",
+        "subject": "Web Development",
         "date": "Dec, 2023",
         "authors": [
             "Tony Montes",
-            "Brian Rivera",
-            "Juan D. Calixto",
-            "Felipe Florian"
+            "David S. Ortiz",
+            "Thais Tamaio"
         ],
         "technologies": [
-            "CupCarbon",
-            "GSC",
-            "Python"
+            "JS",
+            "React",
+            "TS",
+            "NestJS",
+            "PostgreSQL",
+            "JWT"
         ],
         "tags": [
-            "IoT",
-            "Simulation",
-            "Public Transport",
-            "SITP",
-            "Automation"
+            "Web App",
+            "Meetings",
+            "Calendar"
         ],
         "links": {
-            "Video": "https://youtu.be/Tv7xbcGWVfc",
-            "Documentation": "https://github.com/t-montes/SITP-IoT/blob/master/Proyecto_Fase3.pdf",
-            "Github": "https://github.com/t-montes/SITP-IoT"
+            "Github Backend": "https://github.com/t-montes/UMeet_Back",
+            "Github Frontend": "https://github.com/t-montes/UMeet_Front"
         },
-        "icon": "./img/projects/SITP IoT/sim3.png",
+        "icon": "./img/projects/UMeet/large-logo.png",
         "images": [
-            "./img/projects/SITP IoT/sim1.png",
-            "./img/projects/SITP IoT/sim2.png",
-            "./img/projects/SITP IoT/sim3.png",
-            "./img/projects/SITP IoT/diagram.png"
+            "./img/projects/UMeet/1.png",
+            "./img/projects/UMeet/2.png",
+            "./img/projects/UMeet/3.png",
+            "./img/projects/UMeet/4.png",
+            "./img/projects/UMeet/5.png",
+            "./img/projects/UMeet/6.png",
+            "./img/projects/UMeet/7.png",
+            "./img/projects/UMeet/8.png",
+            "./img/projects/UMeet/9.png",
+            "./img/projects/UMeet/mob1.png",
+            "./img/projects/UMeet/mob2.png",
+            "./img/projects/UMeet/mob3.png"
         ]
     },
     {
@@ -439,46 +88,397 @@
         ]
     },
     {
-        "name": "UMeet",
+        "name": "SITP IoT",
         "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
-        "subject": "Web Development",
+        "subject": "Internet of Everything",
         "date": "Dec, 2023",
         "authors": [
             "Tony Montes",
-            "David S. Ortiz",
+            "Brian Rivera",
+            "Juan D. Calixto",
+            "Felipe Florian"
+        ],
+        "technologies": [
+            "CupCarbon",
+            "GSC",
+            "Python"
+        ],
+        "tags": [
+            "IoT",
+            "Simulation",
+            "Public Transport",
+            "SITP",
+            "Automation"
+        ],
+        "links": {
+            "Video": "https://youtu.be/Tv7xbcGWVfc",
+            "Documentation": "https://github.com/t-montes/SITP-IoT/blob/master/Proyecto_Fase3.pdf",
+            "Github": "https://github.com/t-montes/SITP-IoT"
+        },
+        "icon": "./img/projects/SITP IoT/sim3.png",
+        "images": [
+            "./img/projects/SITP IoT/sim1.png",
+            "./img/projects/SITP IoT/sim2.png",
+            "./img/projects/SITP IoT/sim3.png",
+            "./img/projects/SITP IoT/diagram.png"
+        ]
+    },
+    {
+        "name": "Film Feedback",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Business Intelligence",
+        "date": "May, 2023",
+        "authors": [
+            "Tony Montes",
+            "Luccas Rojas",
+            "Brian Rivera"
+        ],
+        "technologies": [
+            "Python",
+            "Scikit-Learn",
+            "NLTK",
+            "Seaborn",
+            "Pandas",
+            "Django"
+        ],
+        "tags": [
+            "Machine Learning",
+            "Logistic Regression",
+            "Data Analysis",
+            "Data Visualization",
+            "API",
+            "Web Page"
+        ],
+        "links": {
+            "Github": "https://github.com/t-montes/FilmFeedback"
+        },
+        "icon": "./img/projects/Film Feedback/icon.png",
+        "images": [
+            "./img/projects/Film Feedback/1.png",
+            "./img/projects/Film Feedback/2.png",
+            "./img/projects/Film Feedback/3.png"
+        ]
+    },
+    {
+        "name": "NMP Robot",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Robotics",
+        "date": "Jun, 2023",
+        "authors": [
+            "Tony Montes",
+            "Sebastian Guerrero",
+            "M. Fernanda Tarquino",
+            "Satiago Rueda"
+        ],
+        "technologies": [
+            "Python",
+            "ROS",
+            "OpenCV",
+            "A*",
+            "Arduino"
+        ],
+        "tags": [
+            "Automatic Navigation",
+            "Automatic Manipulation",
+            "Computer Vision",
+            "Localization",
+            "Path Planning",
+            "Mapping"
+        ],
+        "links": {
+            "Navigation Test": "https://youtube.com/shorts/DkTncyIRM6M?feature=share",
+            "Github": "https://github.com/orgs/Bogota-Dynamics/repositories"
+        },
+        "icon": "./img/projects/NMP Robot/whole.jpeg",
+        "images": [
+            "./img/projects/NMP Robot/whole.jpeg",
+            "./img/projects/NMP Robot/front.jpeg",
+            "./img/projects/NMP Robot/lateral.jpeg",
+            "./img/projects/NMP Robot/start.jpeg",
+            "./img/projects/NMP Robot/track.jpeg"
+        ]
+    },
+    {
+        "name": "Chocolate Maker",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Electronic Instrumentation",
+        "date": "Jun, 2023",
+        "authors": [
+            "Tony Montes",
+            "Julian Parra",
+            "Fernando Álvarez",
+            "Santiago Pardo"
+        ],
+        "technologies": [
+            "Arduino",
+            "UX",
+            "BT HC-05",
+            "Concurrency",
+            "App Inventor"
+        ],
+        "tags": [
+            "Precision",
+            "Sensorics",
+            "Automation"
+        ],
+        "links": {
+            "Video": "https://youtu.be/bzOoEHJ-7M0",
+            "Github": "https://github.com/t-montes/Chocolatera-Instrumentacion"
+        },
+        "icon": "./img/projects/Chocolate Maker/1.png",
+        "images": [
+            "./img/projects/Chocolate Maker/1.png",
+            "./img/projects/Chocolate Maker/2.png",
+            "./img/projects/Chocolate Maker/3.jpeg",
+            "./img/projects/Chocolate Maker/4.png",
+            "./img/projects/Chocolate Maker/diagrama-circuital.jpeg"
+        ]
+    },
+    {
+        "name": "Avanzo",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Software Architecture",
+        "date": "Dec, 2022",
+        "authors": [
+            "Tony Montes",
+            "Luccas Rojas",
+            "Brian Rivera",
             "Thais Tamaio"
         ],
         "technologies": [
+            "Python",
+            "TS",
+            "Django",
+            "PostgreSQL",
+            "Auth0",
+            "NestJS",
+            "MongoDB"
+        ],
+        "tags": [
+            "API",
+            "Web Page",
+            "Authentication",
+            "SQL",
+            "NoSQL"
+        ],
+        "links": {
+            "Video": "https://www.youtube.com/watch?v=fphFscUsDJ0",
+            "Github Backend Django": "https://github.com/t-montes/ArquiSoft-BackDjango",
+            "Github Backend Nestjs": "https://github.com/t-montes/ArquiSoft-BackNestJS"
+        },
+        "icon": "./img/projects/Avanzo/Equipo.jpg",
+        "images": [
+            "./img/projects/Avanzo/1.png",
+            "./img/projects/Avanzo/2.png",
+            "./img/projects/Avanzo/3.png",
+            "./img/projects/Avanzo/certi.png",
+            "./img/projects/Avanzo/Metateoremas-Despliegue.jpeg",
+            "./img/projects/Avanzo/Metateoremas-Componentes.jpeg",
+            "./img/projects/Avanzo/Equipo.jpg"
+        ]
+    },
+    {
+        "name": "Vamo'",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Design and Innovation of IT Products",
+        "date": "Dec, 2022",
+        "authors": [
+            "Tony Montes",
+            "Brian Rivera",
+            "Shadith Perez",
+            "Daniel Bernal",
+            "Obed Cabanzo"
+        ],
+        "technologies": [
             "JS",
-            "React",
+            "React Native",
             "TS",
             "NestJS",
             "PostgreSQL",
-            "JWT"
+            "Figma"
         ],
         "tags": [
-            "Web App",
-            "Meetings",
-            "Calendar"
+            "API",
+            "Mobile",
+            "App"
         ],
         "links": {
-            "Github Backend": "https://github.com/t-montes/UMeet_Back",
-            "Github Frontend": "https://github.com/t-montes/UMeet_Front"
+            "Pitch": "https://www.youtube.com/watch?v=wKsywb-x6aE",
+            "Prototype Video": "https://youtu.be/RqD0B-SU5U8?t=69",
+            "API Documentation": "https://github.com/Vamo-App/VamoApp_Back/blob/master/Vamo%20-%20API%20Documentation.pdf",
+            "Github Frontend": "https://github.com/Vamo-App/VamoApp_Front",
+            "Github Backend": "https://github.com/Vamo-App/VamoApp_Back"
         },
-        "icon": "./img/projects/UMeet/large-logo.png",
+        "icon": "./img/projects/Vamo/vamo-logo3d2.png",
         "images": [
-            "./img/projects/UMeet/1.png",
-            "./img/projects/UMeet/2.png",
-            "./img/projects/UMeet/3.png",
-            "./img/projects/UMeet/4.png",
-            "./img/projects/UMeet/5.png",
-            "./img/projects/UMeet/6.png",
-            "./img/projects/UMeet/7.png",
-            "./img/projects/UMeet/8.png",
-            "./img/projects/UMeet/9.png",
-            "./img/projects/UMeet/mob1.png",
-            "./img/projects/UMeet/mob2.png",
-            "./img/projects/UMeet/mob3.png"
+            "./img/projects/Vamo/act1.png",
+            "./img/projects/Vamo/act2.png",
+            "./img/projects/Vamo/app1.png",
+            "./img/projects/Vamo/app2.png",
+            "./img/projects/Vamo/app3.png",
+            "./img/projects/Vamo/Vamo UML-v1.jpeg"
+        ]
+    },
+    {
+        "name": "Med4Pet",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Sotfware Development",
+        "date": "Dec, 2021",
+        "authors": [
+            "Tony Montes",
+            "Luccas Rojas",
+            "Shadith Perez",
+            "Daniel Villar",
+            "Gabriela Cagua",
+            "Carlos Marin"
+        ],
+        "technologies": [
+            "Java",
+            "Spring",
+            "TS",
+            "Angular",
+            "H2 DB"
+        ],
+        "tags": [
+            "API",
+            "Web Page"
+        ],
+        "links": {
+            "Github Backend": "https://github.com/t-montes/DSW-Med4Pet_Back",
+            "Github Frontend": "https://github.com/t-montes/DSW-Med4Pet_Front"
+        },
+        "icon": "./img/projects/Med4Pet/icon.png",
+        "images": [
+            "./img/projects/Med4Pet/1.png",
+            "./img/projects/Med4Pet/2.png",
+            "./img/projects/Med4Pet/3.png",
+            "./img/projects/Med4Pet/4.png",
+            "./img/projects/Med4Pet/5.png",
+            "./img/projects/Med4Pet/6.png"
+        ]
+    },
+    {
+        "name": "Frogger",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Electronic Digital Systems",
+        "date": "Jun, 2021",
+        "authors": [
+            "Tony Montes",
+            "Alejandro Pasachoa",
+            "Mateo Ortegon"
+        ],
+        "technologies": [
+            "Verilog",
+            "Quartus",
+            "ModelSim",
+            "FPGA"
+        ],
+        "tags": [
+            "Frogger Game",
+            "FPGA"
+        ],
+        "links": {
+            "Video": "https://www.youtube.com/watch?v=bemeV4KzBMI",
+            "Wiki": "https://github.com/t-montes/FPGA-Frogger/blob/master/ProjectDesign-M06-Frogger/PDF_froggerG13-WIKI.pdf",
+            "Github": "https://github.com/t-montes/FPGA-Frogger"
+        },
+        "icon": "./img/projects/Frogger/icon.png",
+        "images": [
+            "./img/projects/Frogger/game.png",
+            "./img/projects/Frogger/BB_SYSTEM-froggerG13_final.jpg",
+            "./img/projects/Frogger/led_matrix.png",
+            "./img/projects/Frogger/SIM_vector1.JPG"
+        ]
+    },
+    {
+        "name": "Matyno",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Personal",
+        "date": "Dec, 2020",
+        "authors": [
+            "Tony Montes"
+        ],
+        "technologies": [
+            "Python",
+            "Tkinter"
+        ],
+        "tags": [
+            "Degree",
+            "Grades tracker",
+            "CSV"
+        ],
+        "links": {
+            "Github": "https://github.com/t-montes/Matyno"
+        },
+        "icon": "./img/projects/Matyno/icon.png",
+        "images": [
+            "./img/projects/Matyno/1.png",
+            "./img/projects/Matyno/2.png",
+            "./img/projects/Matyno/3.png",
+            "./img/projects/Matyno/4.png"
+        ]
+    },
+    {
+        "name": "PensuManager",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Personal",
+        "date": "Aug, 2020",
+        "authors": [
+            "Tony Montes"
+        ],
+        "technologies": [
+            "Python",
+            "Tkinter"
+        ],
+        "tags": [
+            "Pensum Planning",
+            "Desktop App",
+            "CSV"
+        ],
+        "links": {
+            "Github": "https://github.com/t-montes/PensuManager"
+        },
+        "icon": "./img/projects/PensuManager/icon.png",
+        "images": [
+            "./img/projects/PensuManager/1.png",
+            "./img/projects/PensuManager/2.png"
+        ]
+    },
+    {
+        "name": "Cov-Info Bogotá",
+        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "subject": "Introduction to Systems Engineering",
+        "date": "May, 2020",
+        "authors": [
+            "Tony Montes",
+            "Brian Rivera",
+            "Luisa Fuentes",
+            "Daniel Sarmiento"
+        ],
+        "technologies": [
+            "Python",
+            "Flask",
+            "App Inventor",
+            "Firebase"
+        ],
+        "tags": [
+            "COVID-19",
+            "Bogotá",
+            "Mobile",
+            "App"
+        ],
+        "links": {
+            "Video": "https://www.youtube.com/watch?v=6EX2NwzgN9I",
+            "Github": "https://github.com/t-montes/Cov-Info-Bogota"
+        },
+        "icon": "./img/projects/Cov-Info Bogotá/icon.png",
+        "images": [
+            "./img/projects/Cov-Info Bogotá/1.png",
+            "./img/projects/Cov-Info Bogotá/2.png",
+            "./img/projects/Cov-Info Bogotá/3.png",
+            "./img/projects/Cov-Info Bogotá/4.png",
+            "./img/projects/Cov-Info Bogotá/5.png",
+            "./img/projects/Cov-Info Bogotá/6.jpeg"
         ]
     }
 ]
