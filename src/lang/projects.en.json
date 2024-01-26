@@ -189,7 +189,7 @@
             "Navigation Test": "https://youtube.com/shorts/DkTncyIRM6M?feature=share",
             "Github": "https://github.com/orgs/Bogota-Dynamics/repositories"
         },
-        "icon": "./img/projects/NMP Robot/whole.jpeg",
+        "icon": "./img/projects/NMP Robot/icon.jpeg",
         "images": [
             "./img/projects/NMP Robot/whole.jpeg",
             "./img/projects/NMP Robot/front.jpeg",
@@ -225,7 +225,7 @@
             "Video": "https://youtu.be/bzOoEHJ-7M0",
             "Github": "https://github.com/t-montes/Chocolatera-Instrumentacion"
         },
-        "icon": "./img/projects/Chocolate Maker/1.png",
+        "icon": "./img/projects/Chocolate Maker/icon.png",
         "images": [
             "./img/projects/Chocolate Maker/1.png",
             "./img/projects/Chocolate Maker/2.png",

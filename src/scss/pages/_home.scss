@@ -423,6 +423,11 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
     position: relative;
     width: 80%;
     margin: 0 auto;
+    min-height: 225px;
+    max-height: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects .project-item .project-img {
