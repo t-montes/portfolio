@@ -1,7 +1,7 @@
 [
     {
         "name": "UMeet",
-        "description": "UMeet is an innovative, responsive web application designed for college students that makes schedule coordination easy. It allows you to automatically upload schedules from the university, explore colleagues' schedules, and organize meetings and social events. Unlike other tools, UMeet focuses on academic needs, optimizing time management and encouraging efficient interaction between students or between students and teachers.",
+        "description": "UMeet is an innovative, responsive web application designed in React and NestJS for college students that makes schedule coordination easy. It allows you to automatically upload schedules from the university, explore colleagues' schedules, and organize meetings and social events. Unlike other tools, UMeet focuses on academic needs, optimizing time management and encouraging efficient interaction between students or between students and teachers. The web application follows well design practices for web development apps such as PWA for connectivity issues, accessibility and internationalization.",
         "subject": "Web Development",
         "date": "Dec, 2023",
         "authors": [
@@ -44,7 +44,7 @@
     },
     {
         "name": "Hive",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "Hive is a unique mobile app fitted for Uniandes students developed in both Flutter and Kotlin versions, addressing the process of creating interest-based groups, fostering social connections among students with similar hobbies and promoting initiatives, as well as giving importance to the university events in different topics, to make it easier for students to find the events of their interest. Hive offers a set of functionalities useful for both students and event organizers; some of them include the smart feature that recommends events and groups based on user interests automatically, and a feature of sharing and scanning events through a QR code.",
         "subject": "Mobile App Development",
         "date": "Dec, 2023",
         "authors": [
@@ -89,7 +89,7 @@
     },
     {
         "name": "SITP IoT",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "The project aims to enhance the user experience in Bogotá's Integrated Public Transportation System (SITP) through the implementation of an IoT network. It will address the lack of information at stations, allowing users to receive real-time and accurate wait times without relying on mobile devices or internet connectivity. The proposal involves establishing a communication network between stops and buses to provide information on estimated arrival times. Screens at stops and intermediate nodes are emphasized to enhance information distribution and data collection. The system, which eliminates the need for GPS and internet connection at stops, aims to provide more accurate travel time estimates, and improve trip planning within the SITP.",
         "subject": "Internet of Everything",
         "date": "Dec, 2023",
         "authors": [
@@ -125,7 +125,7 @@
     },
     {
         "name": "Film Feedback",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "FilmFeedback is a sentiment analysis application for movie reviews. Its main objective is to predict whether a review is positive or negative, providing valuable information for companies in the content selection for streaming platforms. Initially, data cleaning for reviews was conducted using the NLTK library, with Seaborn utilized for distribution visualization. Three classification algorithms—Logistic Regression, Naive Bayes, and SVM—were employed for model selection, utilizing the scikit-learn library. Following proper data cleaning, Logistic Regression exhibited the best performance with an 86% accuracy, presenting an effective tool for business decision-making.",
         "subject": "Business Intelligence",
         "date": "May, 2023",
         "authors": [
@@ -150,7 +150,10 @@
             "Web Page"
         ],
         "links": {
-            "Github": "https://github.com/t-montes/FilmFeedback"
+            "Github": "https://github.com/t-montes/FilmFeedback",
+            "Jupyter Notebook": "https://github.com/t-montes/FilmFeedback/blob/master/docs_P1/Proyecto1BI.ipynb",
+            "ML Documentation": "https://github.com/t-montes/FilmFeedback/blob/master/docs_P1/Proyecto1BI-documentacion.pdf",
+            "App Documentation": "https://github.com/t-montes/FilmFeedback/blob/master/docs_P2/Proyecto1BI-documentacion2.pdf"
         },
         "icon": "./img/projects/Film Feedback/icon.png",
         "images": [
@@ -161,7 +164,7 @@
     },
     {
         "name": "NMP Robot",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "The NMP Robot, dedicated to Navigation, Manipulation, and Perception tasks, operates within the Robot Operating System (ROS). Crafted for full autonomy in a compact 20cm x 20cm frame, powered by batteries, the robot exclusively communicates through ROS nodes and services. For navigation, we implemented the A* path planning algorithm, optimizing the route amid obstacles. OpenCV facilitated the perception task, detecting color, geometric shapes, and words via OCR. In manipulation, kinematic equations ensured precise manipulator positioning, after manipulator servomotors characterization. These implementations led the NMP Robot to conquer all three challenges successfully.",
         "subject": "Robotics",
         "date": "Jun, 2023",
         "authors": [
@@ -195,12 +198,14 @@
             "./img/projects/NMP Robot/front.jpeg",
             "./img/projects/NMP Robot/lateral.jpeg",
             "./img/projects/NMP Robot/start.jpeg",
-            "./img/projects/NMP Robot/track.jpeg"
+            "./img/projects/NMP Robot/track.jpeg",
+            "./img/projects/NMP Robot/wide_grid_45px.png",
+            "./img/projects/NMP Robot/path.png"
         ]
     },
     {
         "name": "Chocolate Maker",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "The Chocolate Maker project is a high-precision chocolate production system implemented on a single-core Arduino. The system can measure both the weight and temperature of the chocolate mixture while offering precise control over water supply and mixing speed by user-defined parameters with a maximum error of 1.5% overall. Users can conveniently monitor system measurements, dispense water, set mixing velocities, and optionally measure temperature via Bluetooth with an integrated HC-05 module. The system incorporates a precision balancing mechanism with a load cell and HX711 amplifier, as well as an adjustable Nema 17 stepper motor for mixing and a DS18B20 sensor for temperature readings, the project achieves simultaneous execution of multiple tasks without compromising precision - a significant achievement on a single-core Arduino.",
         "subject": "Electronic Instrumentation",
         "date": "Jun, 2023",
         "authors": [
@@ -223,7 +228,8 @@
         ],
         "links": {
             "Video": "https://youtu.be/bzOoEHJ-7M0",
-            "Github": "https://github.com/t-montes/Chocolatera-Instrumentacion"
+            "Github": "https://github.com/t-montes/Chocolatera-Instrumentacion",
+            "Documentation": "https://github.com/t-montes/Chocolatera-Instrumentacion/blob/master/Instructivo.pdf"
         },
         "icon": "./img/projects/Chocolate Maker/icon.png",
         "images": [
