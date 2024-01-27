@@ -481,6 +481,12 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
       margin-top: 30px;
     }
   }
+
+  .carousel .slider-wrapper.axis-horizontal .slider .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   .projects .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
@@ -640,7 +646,7 @@ $num-figures: 15; // Number of figures, must be changed if added or removed imag
 
   @media(min-width: 768px) {
     .modal-content {
-      max-width: 900px;
+      max-width: 1000px;
     }
     .modal-header h2 {
       font-size: 28px;
