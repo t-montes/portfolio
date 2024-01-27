@@ -69,7 +69,7 @@
             "Android"
         ],
         "links": {
-            "Wiki & Videos": "https://github.com/ISIS3510-202320-Team31/Wiki/wiki/sprint4",
+            "Documentation": "https://github.com/ISIS3510-202320-Team31/Wiki/wiki/sprint4",
             "Github Flutter": "https://github.com/ISIS3510-202320-Team31/Flutter",
             "Github Kotlin": "https://github.com/ISIS3510-202320-Team31/Android-Kotlin",
             "Github Backend": "https://github.com/ISIS3510-202320-Team31/Hive_Back"
@@ -89,7 +89,7 @@
     },
     {
         "name": "SITP IoT",
-        "description": "The project aims to enhance the user experience in Bogotá's Integrated Public Transportation System (SITP) through the implementation of an IoT network. It will address the lack of information at stations, allowing users to receive real-time and accurate wait times without relying on mobile devices or internet connectivity. The proposal involves establishing a communication network between stops and buses to provide information on estimated arrival times. Screens at stops and intermediate nodes are emphasized to enhance information distribution and data collection. The system, which eliminates the need for GPS and internet connection at stops, aims to provide more accurate travel time estimates, and improve trip planning within the SITP.",
+        "description": "The project aims to enhance the user experience in Bogotá's Integrated Public Transportation System (SITP) through the implementation of an IoT network. It will address the lack of information at stations, allowing users to receive real-time and accurate wait times without relying on mobile devices or internet connectivity. The proposal is about establishing a communication network between stops and buses to provide information on estimated arrival times. Screens at stops and intermediate nodes are emphasized to enhance information distribution and data collection. The system, which eliminates the need for GPS and internet connection at stops, aims to provide more accurate travel time estimates, and improve trip planning within the SITP.",
         "subject": "Internet of Everything",
         "date": "Dec, 2023",
         "authors": [
@@ -189,7 +189,7 @@
             "Mapping"
         ],
         "links": {
-            "Navigation Test": "https://youtube.com/shorts/DkTncyIRM6M?feature=share",
+            "Navigation Test Video": "https://youtube.com/shorts/DkTncyIRM6M?feature=share",
             "Github": "https://github.com/orgs/Bogota-Dynamics/repositories"
         },
         "icon": "./img/projects/NMP Robot/icon.jpeg",
@@ -242,7 +242,7 @@
     },
     {
         "name": "Avanzo",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "This project is a contribution to the Avanzo™ company in the implementation of three functionalities: automated analysis of documents required for a loan, automated analysis of applications based on rules, and information exchange with companies. For our implementation, we focused on automating document analysis and credit management. To achieve this, we defined a specific architecture implemented in GCP to enable the planned functionalities: 1. Authentication and role management using Auth0, 2. Deployment of a main front-back server on a custom domain (avanzo.tk for testing) with its SSL certificate, and 3. Distribution of services to two different servers using Kong Gateway: one implemented with Django, with a PostgreSQL database, and another implemented in NestJS with MongoDB. Additionally, within the server responsible for document analysis, the Vision API was used for text extraction through OCR.",
         "subject": "Software Architecture",
         "date": "Dec, 2022",
         "authors": [
@@ -252,13 +252,16 @@
             "Thais Tamaio"
         ],
         "technologies": [
+            "GCP",
             "Python",
             "TS",
             "Django",
             "PostgreSQL",
             "Auth0",
             "NestJS",
-            "MongoDB"
+            "MongoDB",
+            "Vision API",
+            "Kong"
         ],
         "tags": [
             "API",
@@ -285,7 +288,7 @@
     },
     {
         "name": "Vamo'",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "Vamo' is a social media-style mobile application that introduces you to new places to visit nearby, based on a recommendation engine that updates according to your app usage to identify your preferences. The main features of the application include a feed to view top recommendations, a search bar to filter places by criteria (location, cost, name, hours), a view of the detailed information of a specific place, its reviews, and photos taken there, a list of your favorite and saved places, a view of your profile and others', and an engine for searching places with common interests for friend meetups. In addition to allowing users to discover new places, Vamo' also aims to promote the growth of local businesses by giving them higher visibility.",
         "subject": "Design and Innovation of IT Products",
         "date": "Dec, 2022",
         "authors": [
@@ -327,7 +330,7 @@
     },
     {
         "name": "Med4Pet",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "Med4Pet is a web platform that enables a booking system for appointments with vets specializing in specific services. It also incorporates a rating system for vets and clients through reviews. The platform includes various views such as a list of services available on the platform along with their respective veterinarians, a client profile with reviews and information about their pets, a vet profile with contact information, reviews, and a calendar displaying available time slots and scheduled appointments. Additionally, the platform allows the administrator to add new clients, veterinarians, or services. Clients can add reviews and schedule appointments with a specific vet. This project was conceived as an introductory venture into back-end and front-end technologies using the Spring and Angular frameworks.",
         "subject": "Sotfware Development",
         "date": "Dec, 2021",
         "authors": [
@@ -365,7 +368,7 @@
     },
     {
         "name": "Frogger",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "The project is about the implementation of the classic game Frogger with 4 difficulty levels on an FPGA connected to an 8x8 LED matrix and a 4-button pad (up, down, left, and right). The dynamics to consider include an initial line where Frogger appears each time the game restarts, a finish line where Frogger must reach 2 different points, and 6 lines of obstacles consisting of rows of lights that appear with a certain frequency and move at a certain speed. Additionally, a limit of 3 lives per level is considered. The code was implemented in the Hardware Description Language (HDL) Verilog, and entities such as \"exits\", \"logs\" (obstacles), and \"frogger\" were developed along with their interactions through a state machine. This project served as an introductory exploration into programmable cards using HDL and simulation using the ModelSim tool.",
         "subject": "Electronic Digital Systems",
         "date": "Jun, 2021",
         "authors": [
@@ -385,7 +388,7 @@
         ],
         "links": {
             "Video": "https://www.youtube.com/watch?v=bemeV4KzBMI",
-            "Wiki": "https://github.com/t-montes/FPGA-Frogger/blob/master/ProjectDesign-M06-Frogger/PDF_froggerG13-WIKI.pdf",
+            "Documentation": "https://github.com/t-montes/FPGA-Frogger/blob/master/ProjectDesign-M06-Frogger/PDF_froggerG13-WIKI.pdf",
             "Github": "https://github.com/t-montes/FPGA-Frogger"
         },
         "icon": "./img/projects/Frogger/icon.png",
@@ -398,7 +401,7 @@
     },
     {
         "name": "Matyno",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "Matyno (short for \"Materias y Notas\" in Spanish) was a Python project I created during my second semester. It aimed to provide a convenient and quick way to store university grades, as an alternative to Excel but with Python expressions to ease the calculation of final grades for subjects, occasionally rounding to 0.5 or approximating based on specific criteria. Additionally, it allowed users to easily input Python formulas using the \"eval\" function for enhanced usability. Moreover, Matyno marked my initial experience with implementing a register-login interface for an application.",
         "subject": "Personal",
         "date": "Dec, 2020",
         "authors": [
@@ -426,7 +429,7 @@
     },
     {
         "name": "PensuManager",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "PensuManager, a Python application I crafted with Tkinter during my first semester, is a simple tool for organizing the university curriculum. Initially, I designed it to address my personal requirements as I needed to organize my dual bachelor's pensum but there were no available free tools that adjusted to my requirements. It has remained consistently useful throughout my career, allowing me to adapt my schedule each semester according to my needs, ensuring that I will graduate in 10 semesters. The app shows each course's prerequisites, corequisites, name, code, description, and credit hours. As my first personal project, PensuManager also served as a learning experience in UI design, grid spacing, and the storage of information using CSV files.",
         "subject": "Personal",
         "date": "Aug, 2020",
         "authors": [
@@ -452,7 +455,7 @@
     },
     {
         "name": "Cov-Info Bogotá",
-        "description": "Mollit occaecat anim consequat ullamco consequat Lorem irure proident quis magna amet cupidatat. Cupidatat fugiat veniam sunt ea do mollit ea voluptate exercitation quis. Sunt deserunt incididunt nulla voluptate. Ut Lorem tempor nulla velit tempor et nulla dolor incididunt sunt adipisicing ad. Fugiat excepteur irure enim reprehenderit in sint irure nulla consectetur. Anim excepteur nulla sit cupidatat minim dolore excepteur veniam reprehenderit sit nisi adipisicing ex ex. Magna eu eiusmod cupidatat nulla officia sit non dolore id fugiat.",
+        "description": "Cov-Info Bogotá is a mobile application developed in 2020 to provide useful and summarized information to the people of Bogotá regarding the progress of COVID-19. The application features three main views: one displaying the locations of hospitals, supermarkets, and pharmacies near the user's location; another presenting key news related to the virus in Bogotá; and a last view offering a detailed breakdown of the number of cases in the city. This view also provides the status of cases based on various filters like date, age or sector within the city, utilizing information provided by the city government. For implementation, a web application was created using Flask-Python and deployed on Heroku for seamless integration into the mobile app. Pandas was also employed for filtering and organizing the information to display.",
         "subject": "Introduction to Systems Engineering",
         "date": "May, 2020",
         "authors": [
@@ -464,8 +467,8 @@
         "technologies": [
             "Python",
             "Flask",
-            "App Inventor",
-            "Firebase"
+            "Pandas",
+            "App Inventor"
         ],
         "tags": [
             "COVID-19",
