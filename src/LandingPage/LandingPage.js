@@ -9,7 +9,7 @@ function LandingPage(props) {
                     Driven Systems and Electronic Engineering student passionate about 
                     creating cutting-edge solutions and automating processes.
                 </p>
-                <a href="#footer" className="btn btn__hire" id="hire">Contact Me&nbsp;&rarr;</a>
+                <a href="#projects" className="btn btn__hire" id="hire">My Projects&nbsp;&rarr;</a>
             </div>
         </header>
     );
