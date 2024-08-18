@@ -27,7 +27,7 @@
         "links": {
             "Paper": "https://aclanthology.org/2024.lchange-1.4",
             "Video": "https://www.youtube.com/watch?v=A7ZRssbslDE",
-            "GitHub": "https://github.com/historicalink/SSD-Old-Spanish",
+            "Github": "https://github.com/historicalink/SSD-Old-Spanish",
             "Notebook": "https://colab.research.google.com/drive/1eaULQocxyuCNX0ftBvDJwe8nfpEi5s6i"
         },
         "icon": "./img/projects/SSD/logo.jpg",
@@ -36,6 +36,81 @@
             "./img/projects/SSD/corpus.png",
             "./img/projects/SSD/muj.png",
             "./img/projects/SSD/dwugs.png"
+        ]
+    },
+    {
+        "name": "Historical Ink: LLM OCR-Correction",
+        "description": "This paper presents two significant contributions: first, a novel dataset of 19th-century Latin American press texts, which addresses the lack of specialized corpora for historical and linguistic analysis in this region. Second, it introduces a framework for OCR error correction and linguistic surface form detection in digitized corpora, utilizing a Large Language Model. This framework is adaptable to various contexts and, in this paper, is specifically applied to the newly created dataset.",
+        "subject": "Thesis - Systems Engineering",
+        "date": "Jul, 2024",
+        "authors": [
+            "Laura Manrique-Gómez",
+            "Tony Montes",
+            "Rubén Manrique"
+        ],
+        "technologies": [
+            "NLP",
+            "NLTK",
+            "Pandas"
+        ],
+        "tags": [
+            "Thesis",
+            "NLP",
+            "Machine Learning",
+            "AI",
+            "Corpus",
+            "LLM",
+            "OCR"
+        ],
+        "links": {
+            "Paper": "https://arxiv.org/abs/2407.12838",
+            "Github": "https://github.com/historicalink/LatamXIX"
+        },
+        "icon": "./img/projects/LLM-OCR-C/difflib.png",
+        "images": [
+            "./img/projects/LLM-OCR-C/diff-newspapers.png",
+            "./img/projects/LLM-OCR-C/errors.png",
+            "./img/projects/LLM-OCR-C/corrections.png",
+            "./img/projects/LLM-OCR-C/nb-corr.png"
+        ]
+    },
+    {
+        "name": "WooperNLP @ Axolotl24",
+        "description": "We participated in the Axolotl24 shared task co-located at ACL 2024. This involves subtasks of identifying unknown/novel senses (subtask 1) and providing dictionary-like definitions of these senses, so-called glosses (subtask 2). Our solution, against the common sense of first finding the novel meanings and then crafting a definition for them, aimed to take advantage of the ability of LLMs such as GPT-3.5 to generate such definitions (subtask 2), and then, use the glosses to find the novel senses (subtask 1), as well as also detecting the novel senses by the examples themselves, for comparison. Some of the findings from this solution are that LLMs doesn't perform very well on old-meaning (19th-century) word definitions due to the lack of it's training data from this century, but the methodology itself seems promising for more modern descriptions of words.",
+        "subject": "Participation @ Shared Task",
+        "date": "Apr, 2024",
+        "authors": [
+            "Tony Montes",
+            "Luccas Rojas",
+            "Daniel Gómez-Barrera",
+            "Rubén Manrique"
+        ],
+        "technologies": [
+            "NLP",
+            "PyTorch",
+            "Transformers",
+            "sentence-transformers",
+            "LLM"
+        ],
+        "tags": [
+            "Shared Task",
+            "Axolotl 2024",
+            "NLP",
+            "Machine Learning",
+            "AI",
+            "LLM",
+            "Senses"
+        ],
+        "links": {
+            "Github": "https://github.com/t-montes/Axolotl24",
+            "Axolotl24 Paper": "https://aclanthology.org/2024.lchange-1.8/",
+            "Shared Task": "https://github.com/ltgoslo/axolotl24_shared_task#readme",
+            "Codalab": "https://codalab.lisn.upsaclay.fr/competitions/18009"
+        },
+        "icon": "./img/projects/WooperNLP/axolotl24.png",
+        "images": [
+            "./img/projects/WooperNLP/woopernlp.png",
+            "./img/projects/WooperNLP/woopernlp2.png"
         ]
     },
     {
