@@ -32,8 +32,8 @@
         },
         "icon": "./img/projects/SSD/logo.jpg",
         "images": [
-            "./img/projects/SSD/corpus.png",
             "./img/projects/SSD/pipeline.png",
+            "./img/projects/SSD/corpus.png",
             "./img/projects/SSD/muj.png",
             "./img/projects/SSD/dwugs.png"
         ]

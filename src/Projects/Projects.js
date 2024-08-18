@@ -43,7 +43,7 @@ const Projects = () => {
             pauseOnMouseEnter: true,
             disableOnInteraction: true
           }}
-          initialSlide={isPC ? 1 : 0}
+          initialSlide={isPC ? 0 : 0}
           ref={swiperRef}
         >
           {projects.map((project, index) => (
