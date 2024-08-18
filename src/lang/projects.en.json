@@ -1,5 +1,44 @@
 [
     {
+        "name": "Historical Ink: SSD",
+        "description": "This paper explores the evolution of word meanings in 19th-century Spanish texts, with an emphasis on Latin American Spanish, using computational linguistics techniques. It addresses the Semantic Shift Detection (SSD) task, which is crucial for understanding linguistic evolution, particularly in historical contexts. The study focuses on analyzing a set of Spanish target words. To achieve this, a 19th-century Spanish corpus is constructed, and a customizable pipeline for SSD tasks is developed. This pipeline helps find the senses of a word and measure their semantic change between two corpora using fine-tuned BERT-like models with old Spanish texts for both Latin American and general Spanish cases. The results provide valuable insights into the cultural and societal shifts reflected in language changes over time",
+        "subject": "Thesis - Systems Engineering",
+        "date": "Aug, 2024",
+        "authors": [
+            "Tony Montes",
+            "Laura Manrique-Gómez",
+            "Rubén Manrique"
+        ],
+        "technologies": [
+            "NLP",
+            "PyTorch",
+            "Transformers",
+            "BERT",
+            "DWUG"
+        ],
+        "tags": [
+            "Thesis",
+            "NLP",
+            "Machine Learning",
+            "AI",
+            "Corpus",
+            "SSD"
+        ],
+        "links": {
+            "Paper": "https://aclanthology.org/2024.lchange-1.4",
+            "Video": "https://www.youtube.com/watch?v=A7ZRssbslDE",
+            "GitHub": "https://github.com/historicalink/SSD-Old-Spanish",
+            "Notebook": "https://colab.research.google.com/drive/1eaULQocxyuCNX0ftBvDJwe8nfpEi5s6i"
+        },
+        "icon": "./img/projects/SSD/logo.jpg",
+        "images": [
+            "./img/projects/SSD/corpus.png",
+            "./img/projects/SSD/pipeline.png",
+            "./img/projects/SSD/muj.png",
+            "./img/projects/SSD/dwugs.png"
+        ]
+    },
+    {
         "name": "UMeet",
         "description": "UMeet is an innovative, responsive web application designed in React and NestJS for college students that makes schedule coordination easy. It allows you to automatically upload schedules from the university, explore colleagues' schedules, and organize meetings and social events. Unlike other tools, UMeet focuses on academic needs, optimizing time management and encouraging efficient interaction between students or between students and teachers. The web application follows well design practices for web development apps such as PWA for connectivity issues, accessibility and internationalization.",
         "subject": "Web Development",
