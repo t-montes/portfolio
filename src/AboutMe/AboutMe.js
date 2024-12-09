@@ -13,7 +13,7 @@ function AboutMe(props) {
 					<a target="_blank" href="https://aclanthology.org/2024.lchange-1.4/" rel="noreferrer">Historical Ink: SSD</a>, 
 					and my role as an ML Intern at Cornell. I am passionate about contributing to AI-related projects, whether in research or industry, 
 					where I can apply my expertise to drive innovation.
-					I continually seek opportunities to expand my knowledge and enjoy teaching and helping others in areas where I excel, as I believe that
+					I continually seek opportunities to expand my knowledge and enjoy teaching and helping others in areas where I excel, as 
 					<br />
 					<span className="about__phrase">I believe knowledge is the most solid foundation for progress</span>. 
 					<br />
